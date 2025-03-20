@@ -18,9 +18,9 @@ import { Progress } from "@/components/ui/progress";
 function TaskDashboard() {
   const [insightsLoading, setInsightsLoading] = useState(false);
   const [showInsights, setShowInsights] = useState(false);
-  const [insightsGenerated, setInsightsGenerated] = useState(false);
+  const [, setInsightsGenerated] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [containerWidth, setContainerWidth] = useState(0);
+  const [, setContainerWidth] = useState(0);
 
   useEffect(() => {
     const updateWidth = () => {
