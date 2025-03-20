@@ -1,0 +1,2948 @@
+<div class="task-item-page ng-scope" style="opacity: 1; width: 100%">
+  <div id="task-scroll-container" class="overflow-y-auto tasks">
+    <!-- ngIf: item.model -->
+    <div
+      class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR px-4 bg-white z-[2] ng-scope"
+    >
+      <header
+        id="task-assessment-item-header"
+        class="relative mx-2 flex max-w-screen-lg flex-col gap-y-4 pb-4 pt-10 text-neutral-1000 transition-all md:gap-y-6 md:pb-6 lg:mx-auto"
+      >
+        <div
+          class="grid grid-cols-task-header md:auto-cols-auto md:grid-cols-3"
+        >
+          <div class="flex flex-col gap-3">
+            <a
+              class="eds-text-400 eds-mb-0 justify-self-start font-medium text-blue-700"
+              ><svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-labelledby="23c6e5b9-d2ad-413f-9768-42520671cac4"
+                aria-hidden="true"
+                class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--medium_Fvvuj"
+                style="--eds-icon-color: #4f46e5"
+              >
+                <!---->
+                <g class="EdsIcon_variant-type-one__group_UZVhj">
+                  <path
+                    d="M18 11H8.41l3.29-3.29a1 1 0 0 0-1.42-1.42l-5 5a1.01 1.01 0 0 0 0 1.42l5 5a1 1 0 0 0 1.42-1.42L8.4 13H18a1 1 0 0 0 .99-1 1 1 0 0 0-1-1z"
+                  ></path>
+                </g>
+              </svg>
+              Back to all Tasks</a
+            >
+            <!---->
+          </div>
+          <section
+            id="header-title-section"
+            class="self-stretch pt-4 text-center transition-all md:pt-6"
+          >
+            <h1
+              id="header-title"
+              class="eds-heading-800 mb-2 text-3xl transition-all line-clamp-2"
+            >
+              The Rizzlers - Living and Non-Living
+            </h1>
+            <p
+              id="header-due-date"
+              class="eds-text-500 whitespace-nowrap text-neutral-600 transition-all"
+            >
+              Due 27 Mar, 11:00 am
+            </p>
+          </section>
+          <div class="flex h-max-content justify-end gap-3 justify-self-end">
+            <!---->
+            <!---->
+            <div class="flex justify-self-end lg:justify-self-center">
+              <div
+                tabindex="-1"
+                class="EdsButtonBase_eds-component_3cum2"
+                size="large"
+                test-id="actionsDropdownButton"
+                is-icon-only="true"
+                aria-haspopup="true"
+              >
+                <button
+                  data-testid="actionsDropdownButton"
+                  type="button"
+                  class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--large_2T9mY EdsButtonBase_variant-type-one--secondary_DXeka EdsButtonBase_variant-type-one--icon-only-large_1oyR6"
+                >
+                  <div
+                    icon-only="true"
+                    class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                  >
+                    <svg
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      aria-labelledby="f3859f08-912f-42d3-afca-af37d30b6ee2"
+                      aria-hidden="true"
+                      class="p-1 EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                      style="--eds-icon-color: #182552"
+                    >
+                      <!---->
+                      <g class="EdsIcon_variant-type-one__group_UZVhj">
+                        <path
+                          d="M12 8a2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-2 2c0 1.1.9 2 2 2zm0 2a2 2 0 0 0-2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2 2 2 0 0 0-2-2zm0 6a2 2 0 0 0-2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2 2 2 0 0 0-2-2z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <!----><!---->
+                </button>
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+        <nav
+          class="flex max-w-max flex-auto rounded-3xl bg-neutral-200 px-2 py-[6px] self-center"
+          id="task-header-subnavigation"
+        >
+          <ul class="flex flex-auto gap-3">
+            <li
+              aria-current="[object Object]"
+              class="eds-heading-400 eds-mb-0 flex flex-auto items-center rounded-3xl px-4 py-2 text-base font-bold leading-5 hover:cursor-pointer sm:px-7"
+            >
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-labelledby="c64cfed2-58e4-4f20-888f-67655842abec"
+                aria-hidden="true"
+                class="flex flex-col content-center justify-center EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                style="--eds-icon-color: #182552"
+              >
+                <!---->
+                <g class="EdsIcon_variant-type-one__group_UZVhj">
+                  <path
+                    d="M12 17.18a5.17 5.17 0 1 1 0-10.35 5.17 5.17 0 0 1 0 10.35m8.66-3.23a2.06 2.06 0 0 1 0-3.9.5.5 0 0 0 .32-.6c-.2-.72-.5-1.41-.86-2.06a.5.5 0 0 0-.62-.2 2.06 2.06 0 0 1-2.7-2.7.5.5 0 0 0-.21-.62 9.29 9.29 0 0 0-2.04-.85.5.5 0 0 0-.6.32 2.06 2.06 0 0 1-3.9 0 .5.5 0 0 0-.6-.32c-.72.2-1.42.5-2.07.87-.2.12-.3.38-.2.6A2.07 2.07 0 0 1 4.5 7.2a.5.5 0 0 0-.62.2 9.26 9.26 0 0 0-.86 2.07.5.5 0 0 0 .32.59 2.06 2.06 0 0 1 0 3.88.5.5 0 0 0-.32.6c.18.64.43 1.26.75 1.84.12.23.4.31.64.2a2.19 2.19 0 0 1 2.18.25c.12.08.23.2.31.31.54.83.53 1.64.2 2.26a.49.49 0 0 0 .18.65c.67.4 1.4.72 2.18.93a.5.5 0 0 0 .59-.32 2.06 2.06 0 0 1 3.9 0c.09.24.34.4.6.32a9.27 9.27 0 0 0 2.15-.91c.22-.13.3-.42.17-.65a2.16 2.16 0 0 1 .51-2.59c.8-.53 1.58-.53 2.2-.24a.5.5 0 0 0 .65-.2c.31-.58.57-1.2.75-1.85a.5.5 0 0 0-.32-.59"
+                  ></path>
+                </g>
+              </svg>
+              <a class="ml-2 no-underline transition-none text-text-default">
+                Details
+              </a>
+            </li>
+            <li
+              aria-current="[object Object]"
+              class="eds-heading-400 eds-mb-0 flex flex-auto items-center rounded-3xl px-4 py-2 text-base font-bold leading-5 hover:cursor-pointer sm:px-7"
+            >
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-labelledby="543a909f-c9f6-43f6-b2c9-95e2ebf6916c"
+                aria-hidden="true"
+                class="flex flex-col content-center justify-center EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                style="--eds-icon-color: #182552"
+              >
+                <!---->
+                <g class="EdsIcon_variant-type-one__group_UZVhj">
+                  <path
+                    d="M19 12h-1.46l-1.7-2.55-.02.01A.98.98 0 0 0 15 9a.99.99 0 0 0-.93.65h-.01l-1.69 4.51-1.38-8.32h-.02a.99.99 0 0 0-1.89-.23L6.34 12H5a1 1 0 0 0-1 1 1 1 0 0 0 1 1h2a1 1 0 0 0 .92-.61l1.65-3.86 1.44 8.63h.02c.08.47.47.84.97.84.43 0 .79-.27.93-.65h.01l2.31-6.17.92 1.38.02-.01c.17.26.46.45.81.45h2a1 1 0 0 0 1-1 1 1 0 0 0-1-1z"
+                  ></path>
+                </g>
+              </svg>
+              <a class="ml-2 no-underline transition-none text-text-default">
+                Monitor
+              </a>
+            </li>
+            <li
+              aria-current="[object Object]"
+              class="eds-heading-400 eds-mb-0 flex flex-auto items-center rounded-3xl px-4 py-2 text-base font-bold leading-5 hover:cursor-pointer sm:px-7"
+            >
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-labelledby="2f6cd13b-0a5b-425e-bb78-97052930da63"
+                aria-hidden="true"
+                class="flex flex-col content-center justify-center EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                style="--eds-icon-color: #182552"
+              >
+                <!---->
+                <g class="EdsIcon_variant-type-one__group_UZVhj">
+                  <path
+                    d="M5 11.51c0-3.03 3.14-5.5 7-5.5s7 2.47 7 5.5c0 3.04-3.14 5.51-7 5.51-3.78 0-6.86-2.36-7-5.3v-.2zm14.86 7.84l-.02-.07-.17-.26c-.38-.61-1.23-2.18-.6-2.85l-.04.02A6.75 6.75 0 0 0 21 11.5C21 7.37 16.96 4 12 4s-9 3.37-9 7.51c0 4.15 4.04 7.52 9 7.52 1.42 0 2.76-.29 3.96-.78a6.07 6.07 0 0 0 3.24 1.72c.05.01.1.03.16.03a.52.52 0 0 0 .5-.65zM11 12a1 1 0 0 1 1 .88V13a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1 1 1 0 0 1 1-1h3zm5-3a1 1 0 0 1 1 .88V10a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1 1 1 0 0 1 1-1h8z"
+                  ></path>
+                </g>
+              </svg>
+              <a class="ml-2 no-underline transition-none text-text-default">
+                Responses
+              </a>
+            </li>
+            <li
+              aria-current="[object Object]"
+              class="eds-heading-400 eds-mb-0 flex flex-auto items-center rounded-3xl px-4 py-2 text-base font-bold leading-5 hover:cursor-pointer sm:px-7 bg-white drop-shadow-md"
+            >
+              <svg
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-labelledby="e246539f-4720-4b81-8d98-dd32161d87ac"
+                aria-hidden="true"
+                class="flex flex-col content-center justify-center EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                style="--eds-icon-color: #4f46e5"
+              >
+                <!---->
+                <g class="EdsIcon_variant-type-one__group_UZVhj">
+                  <path
+                    d="M12 16h1a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1zm5 0h1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1zm2 1H6a1 1 0 0 0-1 1 1 1 0 0 0 1 1h13a1 1 0 0 0 1-1 1 1 0 0 0-1-1zM7 16h1a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1z"
+                  ></path>
+                </g>
+              </svg>
+              <a class="ml-2 no-underline transition-none text-blue-700">
+                Report
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- end ngIf: item.model -->
+
+    <!-- ngIf: item.model --><!-- appViewSegment: 2 -->
+    <div app-view-segment="2" ng-if="item.model" class="ng-scope">
+      ﻿
+      <div
+        class="task-report-page text-text-default max-w-5xl mx-auto mt-4 px-4 ng-scope"
+      >
+        <div class="flex flex-col">
+          <!-- ngIf: progress.isRefreshing -->
+
+          <!-- ngIf: !progress.isRefreshing && progress.model.showOverview -->
+          <div
+            ng-if="!progress.isRefreshing &amp;&amp; progress.model.showOverview"
+            class="ng-scope"
+          >
+            <div class="eds-mb-400 flex flex-row justify-between gap-3">
+              <p class="text-sm my-auto flex-auto ng-binding">
+                Last updated today at 17:00
+                <a
+                  href="../#"
+                  class="eds-text-blue-700 font-medium"
+                  aria-label="Update the data displayed on the page"
+                  ng-click="$event.preventDefault();progress.refresh(true)"
+                  >Update</a
+                >
+              </p>
+              <!-- ngIf: progress.showClassFilter && !progress.model.selectedStudent -->
+              <div class="flex-none">
+                <div
+                  data-v-c6ef9bca=""
+                  class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR"
+                >
+                  <div
+                    data-v-c6ef9bca=""
+                    tabindex="-1"
+                    class="EdsButtonBase_eds-component_3cum2"
+                    label-text="Assess students on this content"
+                    size="large"
+                  >
+                    <button
+                      aria-label="Assess students on this content"
+                      type="button"
+                      class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--large_2T9mY EdsButtonBase_variant-type-one--primary_3a3Nm"
+                    >
+                      <div
+                        class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                      >
+                        <svg
+                          data-v-c6ef9bca=""
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          aria-labelledby="ade6403c-dbaa-473f-aae8-d337a0c7d5f6"
+                          aria-hidden="true"
+                          class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                          style="--eds-icon-color: #ffffff"
+                        >
+                          <!---->
+                          <g class="EdsIcon_variant-type-one__group_UZVhj">
+                            <path
+                              data-v-c6ef9bca=""
+                              d="M11.63 5l.153.009a.737.737 0 01.46.211c.094.098.168.196.223.293l.068.147 4.43 12.722a.617.617 0 01.036.178c0 .12-.044.223-.13.31a.433.433 0 01-.197.116l-.116.014h-2.534l-.152-.007c-.19-.018-.33-.072-.421-.163a.901.901 0 01-.17-.222l-.041-.108-.564-1.66h-5.35L6.76 18.5l-.04.108a.901.901 0 01-.17.222c-.092.09-.232.145-.422.163L5.977 19H3.443l-.116-.014a.433.433 0 01-.196-.116.422.422 0 01-.131-.31c0-.044.012-.104.036-.178L7.466 5.66l.068-.147c.055-.097.13-.195.223-.293a.737.737 0 01.46-.211L8.371 5h3.258zM10 9.308l-1.615 4.307h3.23L10 9.308zM18.427 5l.078.01c.049.013.093.04.133.08.04.04.065.084.079.133l.01.079v2.022H20.7l.077.01c.05.013.094.04.133.08.04.04.066.084.08.133l.009.079v.737l-.01.078a.296.296 0 01-.079.134.293.293 0 01-.133.08l-.077.01h-1.975v2.033l-.01.079a.296.296 0 01-.078.134.293.293 0 01-.133.08l-.078.009h-.843l-.078-.01a.293.293 0 01-.133-.08.296.296 0 01-.078-.133l-.01-.079V8.665h-1.986l-.077-.01a.293.293 0 01-.133-.08.296.296 0 01-.08-.134L15 8.363v-.737l.01-.079a.296.296 0 01.079-.134.293.293 0 01.133-.079l.077-.01h1.986V5.302l.01-.079a.296.296 0 01.078-.134.293.293 0 01.133-.08L17.584 5h.843z"
+                            ></path>
+                          </g>
+                        </svg>
+                        <!---->
+                      </div>
+                      <div data-v-c6ef9bca="" class="">
+                        Assess students on this content
+                      </div>
+                      <!----><!---->
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-wrap gap-5"
+              ng-class="{'eds-mb-700': progress.model.isNewTask}"
+            >
+              <div
+                data-v-4b4ea105=""
+                class="task-stat-box flex flex-grow flex-col justify-center rounded text-center bg-neutral-100"
+              >
+                <div
+                  data-v-4b4ea105=""
+                  class="task-stat-box__number-stat eds-heading-800 mb-1"
+                >
+                  10
+                </div>
+                <div
+                  data-v-4b4ea105=""
+                  class="task-stat-box__text-stat eds-mb-0 eds-heading-100"
+                >
+                  assigned
+                </div>
+                <!---->
+              </div>
+              <div
+                data-v-4b4ea105=""
+                class="task-stat-box flex flex-grow flex-col justify-center rounded text-center bg-red-100"
+              >
+                <div
+                  data-v-4b4ea105=""
+                  class="task-stat-box__number-stat eds-heading-800 mb-1"
+                >
+                  1
+                </div>
+                <div
+                  data-v-4b4ea105=""
+                  class="task-stat-box__text-stat eds-mb-0 eds-heading-100"
+                >
+                  not started
+                </div>
+                <!---->
+              </div>
+              <div
+                data-v-4b4ea105=""
+                class="task-stat-box flex flex-grow flex-col justify-center rounded text-center bg-gold-100"
+              >
+                <div
+                  data-v-4b4ea105=""
+                  class="task-stat-box__number-stat eds-heading-800 mb-1"
+                >
+                  4
+                </div>
+                <div
+                  data-v-4b4ea105=""
+                  class="task-stat-box__text-stat eds-mb-0 eds-heading-100"
+                >
+                  in progress
+                </div>
+                <!---->
+              </div>
+              <div
+                data-v-4b4ea105=""
+                class="task-stat-box flex flex-grow flex-col justify-center rounded text-center bg-green-100"
+              >
+                <div
+                  data-v-4b4ea105=""
+                  class="task-stat-box__number-stat eds-heading-800 mb-1"
+                >
+                  5
+                </div>
+                <div
+                  data-v-4b4ea105=""
+                  class="task-stat-box__text-stat eds-mb-0 eds-heading-100"
+                >
+                  finished
+                </div>
+                <!---->
+              </div>
+            </div>
+
+            <!-- ngIf: progress.model.isNewTask -->
+          </div>
+          <!-- end ngIf: !progress.isRefreshing && progress.model.showOverview -->
+
+          <!-- ngIf: !progress.isRefreshing && !progress.model.isNewTask -->
+          <div
+            class="w-full ng-scope"
+            ng-if="!progress.isRefreshing &amp;&amp; !progress.model.isNewTask"
+          >
+            <div
+              aria-label="Report sub-navigation"
+              class="flex flex-row items-center justify-between gap-1 text-base font-normal text-blue-700 no-underline"
+            >
+              <div>
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+              </div>
+              <!---->
+            </div>
+
+            <!-- ngIf: progress.model.selectedSmartLessonReport -->
+
+            <!-- ngIf: !progress.model.isCompleteActivity -->
+
+            <!-- ngIf: !progress.model.isCompleteActivity -->
+
+            <!-- ngIf: progress.model.showChallengingQuestions -->
+
+            <!-- ngIf: progress.model.hasMoreThanOneSmartLessonReport && !progress.model.selectedSmartLessonReport -->
+            <div
+              class="eds-mb-500 h-fit ng-scope ng-isolate-scope"
+              ng-if="progress.model.hasMoreThanOneSmartLessonReport &amp;&amp; !progress.model.selectedSmartLessonReport"
+              reports="progress.model.smartLessonReports"
+              base-path="'report'"
+              task-id="progress.task.id"
+            >
+              <div class="flex flex-col eds-my-300">
+                <h3 class="text-xl font-bold mb-6">Lesson progress</h3>
+                <table
+                  class="modernisedTable max-h-80 h-full min-w-full w-full cp-data-table"
+                  st-table="results"
+                  st-safe-src="self.reports"
+                  cp-data-table=""
+                  id="data-table-cbdc00c0-8c85-11f0-5e61-3fe44298a076"
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        class="--stickyColumn --firstStickyColumn w-[30%] min-w-[307px]"
+                      >
+                        Lesson
+                      </th>
+                      <th class="w-[20%] min-w-[204px]">Average Time Spent</th>
+                      <!-- ngIf: self.shouldShowAccuracyColumn() -->
+                      <th
+                        ng-if="self.shouldShowAccuracyColumn()"
+                        class="w-[20%] min-w-[204px] ng-scope"
+                      >
+                        Average Accuracy
+                      </th>
+                      <!-- end ngIf: self.shouldShowAccuracyColumn() -->
+                      <th class="w-[30%] min-w-[307px]">Students Complete</th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <!-- ngRepeat: lesson in results track by lesson.ActivityID -->
+                    <tr
+                      ng-repeat="lesson in results track by lesson.ActivityID"
+                      class="ng-scope"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn w-[30%] min-w-[307px]"
+                      >
+                        <a
+                          class="line-clamp-1 ng-binding"
+                          ng-click="self.onLessonClick(lesson.ActivityID)"
+                          >1. Living and Non-living Things</a
+                        >
+                      </td>
+                      <td class="w-[20%] min-w-[204px] ng-binding">6 min</td>
+                      <!-- ngIf: self.shouldShowAccuracyColumn() -->
+                      <td
+                        ng-if="self.shouldShowAccuracyColumn()"
+                        class="w-[20%] min-w-[204px] ng-binding ng-scope"
+                      >
+                        63%
+                      </td>
+                      <!-- end ngIf: self.shouldShowAccuracyColumn() -->
+                      <td class="w-[30%] min-w-[307px]">
+                        <div class="w-full flex flex-row gap-3 items-center">
+                          <span class="text-sm font-bold ng-binding">78%</span>
+                          <div class="w-full">
+                            <div
+                              data-v-cb68ed84=""
+                              aria-label="78 percent complete"
+                              class="progressBar flex max-h-3 min-h-3 bg-neutral-300"
+                            >
+                              <div
+                                data-v-cb68ed84=""
+                                class="m-0 w-full py-2"
+                                style="
+                                  background: linear-gradient(
+                                    to right,
+                                    rgb(52, 211, 153) 0%,
+                                    rgb(52, 211, 153) 78%,
+                                    transparent 78%
+                                  );
+                                "
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <!-- end ngRepeat: lesson in results track by lesson.ActivityID -->
+                    <tr
+                      ng-repeat="lesson in results track by lesson.ActivityID"
+                      class="ng-scope"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn w-[30%] min-w-[307px]"
+                      >
+                        <a
+                          class="line-clamp-1 ng-binding"
+                          ng-click="self.onLessonClick(lesson.ActivityID)"
+                          >2. Environments</a
+                        >
+                      </td>
+                      <td class="w-[20%] min-w-[204px] ng-binding">2 min</td>
+                      <!-- ngIf: self.shouldShowAccuracyColumn() -->
+                      <td
+                        ng-if="self.shouldShowAccuracyColumn()"
+                        class="w-[20%] min-w-[204px] ng-binding ng-scope"
+                      >
+                        64%
+                      </td>
+                      <!-- end ngIf: self.shouldShowAccuracyColumn() -->
+                      <td class="w-[30%] min-w-[307px]">
+                        <div class="w-full flex flex-row gap-3 items-center">
+                          <span class="text-sm font-bold ng-binding">71%</span>
+                          <div class="w-full">
+                            <div
+                              data-v-cb68ed84=""
+                              aria-label="71 percent complete"
+                              class="progressBar flex max-h-3 min-h-3 bg-neutral-300"
+                            >
+                              <div
+                                data-v-cb68ed84=""
+                                class="m-0 w-full py-2"
+                                style="
+                                  background: linear-gradient(
+                                    to right,
+                                    rgb(52, 211, 153) 0%,
+                                    rgb(52, 211, 153) 71%,
+                                    transparent 71%
+                                  );
+                                "
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <!-- end ngRepeat: lesson in results track by lesson.ActivityID -->
+                    <tr
+                      ng-repeat="lesson in results track by lesson.ActivityID"
+                      class="ng-scope"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn w-[30%] min-w-[307px]"
+                      >
+                        <a
+                          class="line-clamp-1 ng-binding"
+                          ng-click="self.onLessonClick(lesson.ActivityID)"
+                          >3. Plants and their Environment</a
+                        >
+                      </td>
+                      <td class="w-[20%] min-w-[204px] ng-binding">3 min</td>
+                      <!-- ngIf: self.shouldShowAccuracyColumn() -->
+                      <td
+                        ng-if="self.shouldShowAccuracyColumn()"
+                        class="w-[20%] min-w-[204px] ng-binding ng-scope"
+                      >
+                        63%
+                      </td>
+                      <!-- end ngIf: self.shouldShowAccuracyColumn() -->
+                      <td class="w-[30%] min-w-[307px]">
+                        <div class="w-full flex flex-row gap-3 items-center">
+                          <span class="text-sm font-bold ng-binding">75%</span>
+                          <div class="w-full">
+                            <div
+                              data-v-cb68ed84=""
+                              aria-label="75 percent complete"
+                              class="progressBar flex max-h-3 min-h-3 bg-neutral-300"
+                            >
+                              <div
+                                data-v-cb68ed84=""
+                                class="m-0 w-full py-2"
+                                style="
+                                  background: linear-gradient(
+                                    to right,
+                                    rgb(52, 211, 153) 0%,
+                                    rgb(52, 211, 153) 75%,
+                                    transparent 75%
+                                  );
+                                "
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <!-- end ngRepeat: lesson in results track by lesson.ActivityID -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- end ngIf: progress.model.hasMoreThanOneSmartLessonReport && !progress.model.selectedSmartLessonReport -->
+
+            <!-- ngIf: progress.model.hasMoreThanOneSmartLessonReport && !progress.model.selectedSmartLessonReport -->
+            <div
+              class="section student-overall-report eds-mb-500 ng-scope ng-isolate-scope"
+              ng-if="progress.model.hasMoreThanOneSmartLessonReport &amp;&amp; !progress.model.selectedSmartLessonReport"
+              ref="progress.studentOverallReport"
+              task="progress.task"
+              reports="progress.model.smartLessonReports"
+              student-stats="progress.model.studentStats"
+              export-title="progress.model.userTask.name"
+            >
+              <div
+                class="flex flex-row items-center justify-between eds-my-300"
+              >
+                <h3 class="text-xl font-bold">Individual student progress</h3>
+                <div class="flex flex-row gap-2">
+                  <div
+                    data-v-c6ef9bca=""
+                    class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR"
+                  >
+                    <div
+                      data-v-c6ef9bca=""
+                      tabindex="-1"
+                      class="EdsButtonBase_eds-component_3cum2"
+                      label-text="Message All"
+                      size="medium"
+                    >
+                      <button
+                        aria-label="Message All"
+                        type="button"
+                        class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--secondary_DXeka"
+                      >
+                        <div
+                          class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                        >
+                          <svg
+                            data-v-c6ef9bca=""
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="0f38635d-5349-4102-8e3f-2b441639769e"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                            style="--eds-icon-color: #182552"
+                          >
+                            <!---->
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                data-v-c6ef9bca=""
+                                d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                              ></path>
+                            </g>
+                          </svg>
+                          <!---->
+                        </div>
+                        <div data-v-c6ef9bca="" class="">Message All</div>
+                        <!----><!---->
+                      </button>
+                    </div>
+                  </div>
+
+                  <div data-v-728460c0="">
+                    <div
+                      data-v-728460c0=""
+                      tabindex="-1"
+                      class="EdsButtonBase_eds-component_3cum2"
+                      size="medium"
+                    >
+                      <button
+                        type="button"
+                        class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--secondary_DXeka"
+                      >
+                        <div
+                          class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                        >
+                          <svg
+                            data-v-728460c0=""
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="acf77a9a-dde7-46c2-b111-51402d3a5874"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                            style="--eds-icon-color: #182552"
+                          >
+                            <!---->
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                data-v-728460c0=""
+                                d="M20 4H4a2 2 0 0 0-1.99 2L2 18c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-1 14H5a1 1 0 0 1-1-1V8l6.94 4.34c.65.41 1.47.41 2.12 0L20 8v9a1 1 0 0 1-1 1zm-7-7L4 6h16l-8 5z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        Send email reminder
+                        <!---->
+                      </button>
+                    </div>
+                    <!---->
+                  </div>
+
+                  <!-- ngIf: self.reopenButtonVisibility -->
+
+                  <div
+                    data-v-c6ef9bca=""
+                    class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR"
+                  >
+                    <div
+                      data-v-c6ef9bca=""
+                      tabindex="-1"
+                      class="EdsButtonBase_eds-component_3cum2"
+                      label-text="Export table as csv"
+                      size="medium"
+                    >
+                      <button
+                        aria-label="Export table as csv"
+                        type="button"
+                        class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--secondary_DXeka"
+                      >
+                        <div
+                          class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                        >
+                          <svg
+                            data-v-c6ef9bca=""
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="c0445b4e-7bd5-4fa2-a2a3-e504af5d0ab1"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                            style="--eds-icon-color: #182552"
+                          >
+                            <!---->
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                data-v-c6ef9bca=""
+                                d="M16.59 9H15V4a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5H7.41a1 1 0 0 0-.71 1.71l4.59 4.59a1 1 0 0 0 1.41 0l4.59-4.59a1 1 0 0 0-.7-1.71zM5 19a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1 1 1 0 0 0-1-1H6a1 1 0 0 0-1 1z"
+                              ></path>
+                            </g>
+                          </svg>
+                          <!---->
+                        </div>
+                        <div data-v-c6ef9bca="" class="">
+                          Export table as csv
+                        </div>
+                        <!----><!---->
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="report-section-body">
+                <table
+                  st-table="results"
+                  st-safe-src="self.reportStudentData"
+                  cp-data-table=""
+                  class="modernisedTable min-w-full w-full cp-data-table"
+                  id="data-table-1be3517d-c232-cd2d-0b9b-d1a5fa175125"
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px]"
+                        st-sort="firstName"
+                        st-skip-natural="true"
+                      >
+                        First Name
+                      </th>
+                      <th
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px]"
+                        st-sort="surname"
+                        st-skip-natural="true"
+                      >
+                        Last Name
+                      </th>
+                      <th
+                        class="min-w-[130px] w-[130px]"
+                        st-sort="totalTimeTaken"
+                        st-skip-natural="true"
+                      >
+                        Time taken
+                      </th>
+                      <th
+                        class="min-w-28 w-28"
+                        st-sort="overall"
+                        st-skip-natural="true"
+                      >
+                        Overall
+                      </th>
+                      <!-- ngRepeat: report in self.reports track by $index -->
+                      <th
+                        class="truncate ng-binding ng-scope"
+                        st-sort="self.getSortData(report)"
+                        ng-repeat="report in self.reports track by $index"
+                        ng-attr-id="{{report.ActivityID}}"
+                        title="1. Living and Non-living Things"
+                        style="
+                          text-align: center;
+                          min-width: 196px;
+                          width: 196px;
+                        "
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        st-skip-natural="true"
+                        id="1883473"
+                      >
+                        1. Living and Non-living Things
+                      </th>
+                      <!-- end ngRepeat: report in self.reports track by $index -->
+                      <th
+                        class="truncate ng-binding ng-scope"
+                        st-sort="self.getSortData(report)"
+                        ng-repeat="report in self.reports track by $index"
+                        ng-attr-id="{{report.ActivityID}}"
+                        title="2. Environments"
+                        style="
+                          text-align: center;
+                          min-width: 196px;
+                          width: 196px;
+                        "
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        st-skip-natural="true"
+                        id="1883476"
+                      >
+                        2. Environments
+                      </th>
+                      <!-- end ngRepeat: report in self.reports track by $index -->
+                      <th
+                        class="truncate ng-binding ng-scope"
+                        st-sort="self.getSortData(report)"
+                        ng-repeat="report in self.reports track by $index"
+                        ng-attr-id="{{report.ActivityID}}"
+                        title="3. Plants and their Environment"
+                        style="
+                          text-align: center;
+                          min-width: 196px;
+                          width: 196px;
+                        "
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        st-skip-natural="true"
+                        id="1883474"
+                      >
+                        3. Plants and their Environment
+                      </th>
+                      <!-- end ngRepeat: report in self.reports track by $index -->
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first5</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="0f3cc6b3-4576-4e3c-a0c9-9276011c11ff"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last5
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >25 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">100%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first1</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="970e4df4-45de-4f93-b6be-c5647c26565b"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last1
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >21 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">100%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first2</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="2a9b3052-0e38-4fcc-85c7-869f1c063865"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last2
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >21 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">100%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first3</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="e2de8e3c-5e71-4c8d-a810-526149285030"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last3
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >27 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">100%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first4</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="bb8a9e25-7419-4646-9e9e-ddb345439aa9"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last4
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >22 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">100%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          100% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first8</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="c398f250-acc1-412c-807a-29892725a8aa"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last8
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >34 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">82%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="1134475e-014b-465f-9976-5c685b778ef5"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          84% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="744c517b-8d68-453a-83ac-8d67623074ab"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          78% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="16e6a516-38fe-419c-968f-5988cbef8170"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          83% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first7</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="7c8a921c-ee5d-4097-9870-2d4aa761dcb3"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last7
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >16 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">80%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="eff3ff44-29db-4e00-b6bf-bf4e6d2bec3e"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          73% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="ecb134f7-1ef3-4845-aa24-d641f1d6ab70"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          78% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="d9d9bdf9-bb63-410f-8bc5-882c101a997f"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          88% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first10</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="5bc26287-524e-49f8-94b7-d08a78760611"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last10
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >13 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">42%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="7b43255a-519c-4a3f-8a59-dd318388e40f"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          52% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="20bc4dd8-e5f0-434f-9c36-c36d3183dc40"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          37% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="56f73e9c-d761-499a-9201-e9938f58c902"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          36% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first9</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="477aac0b-a18d-4bb5-9a8f-7b33ae948524"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last9
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                          >13 min</span
+                        >
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">42%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="2323a446-7cfa-4e7c-b50a-c20fc1902446"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          66% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="4ff78190-d65f-4599-8635-c0f35f7dc7f5"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          18% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+                        <div>
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="f5a2135c-9ef1-4a5d-a656-2573b21ddd1f"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h absolute top-1 right-1.5"
+                            style="--eds-icon-color: #465175"
+                          >
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M4.47 21h15.06a2 2 0 0 0 1.73-3L13.73 4.99a2 2 0 0 0-3.46 0L2.74 18a2 2 0 0 0 1.73 3zM12 14a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm1 4h-2v-2h2v2z"
+                              ></path>
+                            </g></svg
+                          ><!---->
+                        </div>
+                        <!-- end ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          42% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                    <tr
+                      ng-repeat="studentData in results track by studentData.userID"
+                      class="--cheerAvailableRow ng-scope"
+                      ng-style="{'width': self.overallReportRowWidth + 'px'}"
+                      style="width: 1022px"
+                    >
+                      <td
+                        class="--stickyColumn --firstStickyColumn min-w-32 max-w-[128px] h-full flex flex-row items-center pl-6 py-0 pr-0"
+                      >
+                        <!-- ngIf: ::studentData.onlineStatus > 0 -->
+                        <span class="text-sm font-medium flex-auto ng-binding"
+                          >first6</span
+                        >
+                        <div
+                          data-v-c6ef9bca=""
+                          class="EdsSetTheme_variant-type-one_iscs6 EdsSetTheme_variant-type-one--theme-type-two_1e7KR --cheerButton"
+                        >
+                          <div
+                            data-v-c6ef9bca=""
+                            tabindex="-1"
+                            class="EdsButtonBase_eds-component_3cum2"
+                            label-text="Message"
+                            size="medium"
+                            is-icon-only="true"
+                          >
+                            <button
+                              aria-label="Message"
+                              type="button"
+                              class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--primary_3a3Nm EdsButtonBase_variant-type-one--icon-only-medium_1hVLq"
+                            >
+                              <div
+                                icon-only="true"
+                                class="EdsButtonBase_variant-type-one__leading_1fnFU"
+                              >
+                                <svg
+                                  data-v-c6ef9bca=""
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  aria-labelledby="ee4b5b68-6cf2-4f67-bcf3-401d73435e54"
+                                  aria-hidden="true"
+                                  class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--small_pjL2h"
+                                  style="--eds-icon-color: #ffffff"
+                                >
+                                  <!---->
+                                  <g
+                                    class="EdsIcon_variant-type-one__group_UZVhj"
+                                  >
+                                    <path
+                                      data-v-c6ef9bca=""
+                                      d="M13.82 5.8L3.57 9.32c-.49.17-.88.7-.88 1.19v.29c0 .49.4 1.03.88 1.19l1.07.37 5.73 1.97 3.45 1.2c.48.16.87-.1.87-.6V6.39c0-.3-.15-.52-.38-.6a.73.73 0 0 0-.5 0zm-9.13 7.82l2 .62v4.5a1 1 0 1 1-2 0v-5.12zm12.35-1.3a.97.97 0 0 1 .51.08l2.77 1.17a1 1 0 0 1 .6.78v.04a1 1 0 0 1-1.38 1.02l-2.77-1.17a1 1 0 0 1 .27-1.91zm3.2-3.17a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2zm-.9-4.36a1 1 0 0 1 1.37.36 1 1 0 0 1-.37 1.37l-2.6 1.5a1 1 0 0 1-1-1.73z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <!---->
+                              </div>
+                              <!----><!---->
+                            </button>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="--stickyColumn left-32 min-w-32 max-w-[128px] text-smfont-medium h-full flex flex-row items-center pl-6 py-0 pr-0 ng-binding"
+                      >
+                        last6
+                      </td>
+                      <td class="min-w-[130px] w-[130px]">
+                        <span
+                          ng-bind-html="self.getTimeString(studentData.totalTimeTaken)"
+                          class="ng-binding"
+                        ></span>
+                      </td>
+                      <td class="min-w-28 w-28">
+                        <strong class="ng-binding">0%</strong>
+                        <!-- ngIf: studentData.late -->
+                      </td>
+                      <!-- ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          0% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          0% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                      <td
+                        ng-repeat="lesson in studentData.lessonCompletion track by $index"
+                        class="h-[98%] lesson-progress lesson-progress-td flex flex-col ng-scope"
+                        ng-class="{
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-gold-500 before:pointer-events-none before:absolute relative': lesson.alertLevel === 1,
+                           'before:ring-1 before:ring-inset before:rounded-sm before:inset-0 before:ring-pink-600 before:pointer-events-none before:absolute relative': lesson.alertLevel === 2,
+                           'no-padding': section.AlertLevel > 0,
+                        }"
+                        ng-style="{'min-width': self.reportColWidth + 'px', 'width': self.reportColWidth + 'px'}"
+                        style="min-width: 196px; width: 196px"
+                      >
+                        <!-- ngIf: lesson.alertLevel == 1 || lesson.alertLevel == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined && lesson.onlineStatus == 2 -->
+
+                        <!-- ngIf: lesson.percentComplete != undefined --><a
+                          ng-if="lesson.percentComplete != undefined"
+                          ng-click="self.loadStudentReport(lesson.lessonID, studentData.userID)"
+                          class="ng-binding ng-scope"
+                        >
+                          0% </a
+                        ><!-- end ngIf: lesson.percentComplete != undefined -->
+                        <!-- ngIf: lesson.percentComplete == undefined -->
+                      </td>
+                      <!-- end ngRepeat: lesson in studentData.lessonCompletion track by $index -->
+                    </tr>
+                    <!-- end ngRepeat: studentData in results track by studentData.userID -->
+                  </tbody>
+                </table>
+              </div>
+
+              <div data-v-8f90bba4="">
+                <!---->
+                <div
+                  data-v-8f90bba4=""
+                  class="EdsToastControllerLegacy_root_3H-8t"
+                >
+                  <!---->
+                </div>
+              </div>
+
+              <!-- ngIf: self.sendCheerOptions --><!----><!-- end ngIf: self.sendCheerOptions -->
+            </div>
+            <!-- end ngIf: progress.model.hasMoreThanOneSmartLessonReport && !progress.model.selectedSmartLessonReport -->
+
+            <!-- ngIf: progress.model.showSmartLessonStudentReport -->
+
+            <!-- ngIf: progress.model.showSmartLessonDashReport -->
+
+            <!-- ngIf: progress.model.selectedSmartLessonReport -->
+
+            <!-- ngIf: progress.model.showFeedback -->
+
+            <!-- ngIf: progress.model.selectedSmartLessonReport -->
+          </div>
+          <!-- end ngIf: !progress.isRefreshing && !progress.model.isNewTask -->
+
+          <!-- teacher referral promo -->
+          <!-- ngIf: progress.showTeacherReferralPromo -->
+        </div>
+        <!-- ngIf: progress.showDemoReportsDialog -->
+
+        <cp-monitor-class-filter-dialog
+          ref="progress.classFilterDialog"
+          heading="Select classes"
+          class="ng-isolate-scope"
+          ><div
+            class="monitor-class-filter-dialog ep-modal-dialog ng-isolate-scope ng-hide"
+            ng-show="self.show"
+            width="670px"
+            dismiss-handler="self.onCancelClick()"
+            show="self.shown"
+            show-close-button="false"
+            data-testid="mfeControlPanel-filter-classes-dialog"
+          >
+            <div class="md-overlay" ng-click="self.dismiss()"></div>
+            <div class="md-header"></div>
+            <div
+              class="md-dialog"
+              ng-style="{ width: self.width, height: self.height }"
+              style="width: 670px"
+            >
+              <span
+                class="md-title ng-binding ng-hide"
+                ng-show="self.dialogTitle &amp;&amp; self.dialogTitle.length"
+                ng-bind="self.dialogTitle"
+              ></span>
+              <div class="md-close" ng-click="self.close()">
+                <div
+                  ng-bind-html="self.closeButtonHtml"
+                  class="ng-binding"
+                ></div>
+              </div>
+              <div class="md-dialog-content" ng-transclude="">
+                <div class="flex justify-between text-text-default ng-scope">
+                  <h2 class="text-xl text-bold pt-4 mb-6 ng-binding">
+                    Select classes
+                  </h2>
+                  <button
+                    aria-label="Close dialog"
+                    class="close-button absolute top-8 right-12 bg-transparent"
+                    ng-click="self.hide()"
+                  >
+                    <svg
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      aria-labelledby="07fa9170-44d8-40e0-8eea-a430122ad337"
+                      aria-hidden="true"
+                      class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--medium_Fvvuj"
+                      style="--eds-icon-color: #182552"
+                    >
+                      <!---->
+                      <g class="EdsIcon_variant-type-one__group_UZVhj">
+                        <path
+                          d="M18.3 5.71a1 1 0 0 0-1.41 0L12 10.59 7.11 5.7A1 1 0 1 0 5.7 7.11L10.59 12 5.7 16.89a1 1 0 1 0 1.41 1.41L12 13.41l4.89 4.89a1 1 0 1 0 1.41-1.41L13.41 12l4.89-4.89a1 1 0 0 0 0-1.4z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+                <div class="flex flex-row justify-between ng-scope">
+                  <a
+                    class="text-blue-700 text-sm ng-binding"
+                    ng-click="self.setSelectedTheseClasses(self.allClasses, !self.allClassesSelected)"
+                  >
+                    Unselect all
+                  </a>
+
+                  <div class="EdsContainerInput_eds-component_33ws- w-44 -mt-7">
+                    <div class="EdsContainerInput_base-theme_LkB0P">
+                      <div
+                        class="EdsContainerInput_base-theme__slot_CfQhP EdsContainerInput_variant-type-one__slot--label_Z9uvU"
+                      >
+                        <div class="EdsLabelInput_eds-component_2GJrg">
+                          <label
+                            for="9d0ee9ae-91d1-4d19-9ae6-07bf9aa9816b"
+                            class="EdsLabelInput_base-theme_3Ly4Z EdsLabelInput_variant-type-one_2s_8z"
+                          >
+                          </label>
+                        </div>
+                      </div>
+                      <div
+                        class="EdsContainerInput_variant-type-one__container_1r04z"
+                      >
+                        <div
+                          class="EdsContainerInput_base-theme__slot_CfQhP EdsContainerInput_variant-type-one__slot--leadingIcon_FtL00"
+                        >
+                          <svg
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            aria-labelledby="7258ca47-3628-4fcc-9ece-7da4f2075c61"
+                            aria-hidden="true"
+                            class="EdsIcon_eds-component_24CuF EdsIcon_base-theme_2Vikr EdsIcon_variant-type-one--medium_Fvvuj"
+                            style="--eds-icon-color: #6b748e"
+                          >
+                            <!---->
+                            <g class="EdsIcon_variant-type-one__group_UZVhj">
+                              <path
+                                d="M10.5 3a7.5 7.5 0 0 1 5.94 12.09l3.94 4a1 1 0 0 1-1.43 1.4l-3.94-4A7.5 7.5 0 1 1 10.5 3zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        <div class="EdsContainerInput_base-theme__slot_CfQhP">
+                          <div class="EdsInputBasic_eds-component_2mMWe">
+                            <div
+                              class="EdsInputBasic_base-theme_22hoe EdsInputBasic_variant-type-one_huF-o EdsInputBasic_variant-type-one--leading_2aM8z"
+                            >
+                              <input
+                                id="9d0ee9ae-91d1-4d19-9ae6-07bf9aa9816b"
+                                type="search"
+                                placeholder="Search..."
+                                autocomplete="off"
+                                class="EdsInputBasic_base-theme__input_2WbaM EdsInputBasic_variant-type-one__input_2Kpcn"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!---->
+                      </div>
+                      <!----><!---->
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col max-h-64 mt-3 overflow-y-auto ng-scope"
+                >
+                  <div class="lists">
+                    <div
+                      class="select-row flex gap-2 items-center cursor-pointer selected empty"
+                      ng-click="self.setSelectedTheseClasses(self.shownMyClasses, !self.allMyClassesSelected)"
+                      ng-class="{'selected' : self.allMyClassesSelected, 'empty': self.shownMyClasses.length == 0 }"
+                    >
+                      <button class="select-button"></button>
+                      <span class="select-label text-sm font-bold"
+                        >My Classes</span
+                      >
+                    </div>
+                    <!-- ngRepeat: class in self.shownMyClasses track by class.id -->
+                    <!-- ngIf: self.shownMyClasses.length == 0 -->
+                    <div
+                      ng-if="self.shownMyClasses.length == 0"
+                      class="text-sm ml-6 mb-3 ng-scope"
+                    >
+                      No classes
+                    </div>
+                    <!-- end ngIf: self.shownMyClasses.length == 0 -->
+                    <!-- ngIf: self.isAllClassesVisible -->
+                    <div
+                      ng-if="self.isAllClassesVisible"
+                      class="select-row flex gap-2 items-center cursor-pointer ng-scope selected empty"
+                      ng-click="self.setSelectedTheseClasses(self.shownOtherClasses, !self.allOtherClassesSelected)"
+                      ng-class="{'selected' : self.allOtherClassesSelected, 'empty': self.shownOtherClasses.length == 0 }"
+                    >
+                      <button class="select-button"></button>
+                      <span class="select-label text-sm font-bold"
+                        >Other Classes</span
+                      >
+                    </div>
+                    <!-- end ngIf: self.isAllClassesVisible -->
+                    <!-- ngRepeat: class in self.shownOtherClasses track by class.id -->
+                    <!-- ngIf: self.shownOtherClasses.length == 0 && self.isAllClassesVisible -->
+                    <div
+                      ng-if="self.shownOtherClasses.length == 0 &amp;&amp; self.isAllClassesVisible"
+                      class="text-sm ml-6 ng-scope"
+                    >
+                      No classes
+                    </div>
+                    <!-- end ngIf: self.shownOtherClasses.length == 0 && self.isAllClassesVisible -->
+                  </div>
+                </div>
+                <div class="flex gap-4 mt-10 ng-scope">
+                  <div
+                    tabindex="-1"
+                    class="EdsButtonBase_eds-component_3cum2"
+                    size="large"
+                    is-disabled="true"
+                  >
+                    <button
+                      disabled="disabled"
+                      type="button"
+                      class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--large_2T9mY EdsButtonBase_variant-type-one--primary_3a3Nm"
+                    >
+                      <!---->
+                      Confirm
+                      <!---->
+                    </button>
+                  </div>
+                  <div
+                    tabindex="-1"
+                    class="EdsButtonBase_eds-component_3cum2"
+                    size="large"
+                  >
+                    <button
+                      type="button"
+                      class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--large_2T9mY EdsButtonBase_variant-type-one--secondary_DXeka"
+                    >
+                      <!---->
+                      Cancel
+                      <!---->
+                    </button>
+                  </div>
+                  <div class="flex-auto"></div>
+                  <span
+                    class="self-center font-semibold"
+                    ng-pluralize=""
+                    count="self.selectedClasses.length"
+                    when="{
+                            '0': 'No classes selected',
+                            'one': '1 class selected',
+                            'other': '{} classes selected'
+                            }"
+                    >No classes selected</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div></cp-monitor-class-filter-dialog
+        >
+        <!---->
+      </div>
+    </div>
+    <!-- end ngIf: item.model -->
+  </div>
+  <!-- ngIf: item.model --><!----><!-- end ngIf: item.model -->
+
+  <cp-confirmation-dialog
+    ref="item.dirtyModelConfirmationDialog"
+    require-click="true"
+    class="dirty-model-dialog modernisedDialog ng-isolate-scope"
+    cancel-button-label="Discard"
+    ok-button-label="Save"
+    ok-positive="true"
+    cancel-negative="true"
+    ><div
+      class="confirmation-dialog ep-modal-dialog ng-isolate-scope ng-hide"
+      ng-show="self.show"
+      width="420px"
+      show="self.shown"
+      prevent-dismiss="self.requireClick"
+      dismiss-handler="self.onCancelClick()"
+    >
+      <div class="md-overlay" ng-click="self.dismiss()"></div>
+      <div class="md-header"></div>
+      <div
+        class="md-dialog"
+        ng-style="{ width: self.width, height: self.height }"
+        style="width: 420px"
+      >
+        <span
+          class="md-title ng-binding ng-hide"
+          ng-show="self.dialogTitle &amp;&amp; self.dialogTitle.length"
+          ng-bind="self.dialogTitle"
+        ></span>
+        <div class="md-close" ng-click="self.close()">
+          <div ng-bind-html="self.closeButtonHtml" class="ng-binding"></div>
+        </div>
+        <div class="md-dialog-content" ng-transclude="">
+          <div class="v-group ng-scope" style="height: 100%">
+            <div ng-transclude="">
+              <h2 class="ng-scope">Unsaved changes</h2>
+              <p class="ng-scope">
+                Do you want to save the changes you have made to this task?
+              </p>
+            </div>
+            <div class="buttons">
+              <div
+                tabindex="-1"
+                class="EdsButtonBase_eds-component_3cum2"
+                size="large"
+                buttonlabel="Save"
+              >
+                <button
+                  type="button"
+                  buttonlabel="Save"
+                  class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--large_2T9mY EdsButtonBase_variant-type-one--primary_3a3Nm"
+                >
+                  <!---->
+                  Save
+                  <!---->
+                </button>
+              </div>
+              <!-- ngIf: !self.hideCancel -->
+              <div
+                tabindex="-1"
+                class="EdsButtonBase_eds-component_3cum2"
+                size="large"
+                buttonlabel="Discard"
+              >
+                <button
+                  type="button"
+                  buttonlabel="Discard"
+                  class="eds-focusable EdsButtonBase_base-theme_21sy0 EdsButtonBase_variant-type-one_2tiGG EdsButtonBase_variant-type-one--large_2T9mY EdsButtonBase_variant-type-one--destructive_T1Ovp"
+                >
+                  <!---->
+                  Discard
+                  <!---->
+                </button>
+              </div>
+              <!-- end ngIf: !self.hideCancel -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></cp-confirmation-dialog
+  >
+  <ep-toast ref="item.epToast" class="ng-isolate-scope"
+    ><div class="ep-toast alert-" uib-alert="" role="alert">
+      <button
+        ng-show="closeable"
+        type="button"
+        class="close ng-hide"
+        ng-click="close({$event: $event})"
+      >
+        <span aria-hidden="true">×</span>
+        <span class="sr-only">Close</span>
+      </button>
+      <div ng-transclude="">
+        <div ng-bind-html="self.message" class="ng-binding ng-scope"></div>
+      </div></div
+  ></ep-toast>
+</div>
