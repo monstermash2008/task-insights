@@ -166,99 +166,151 @@ export function AIInsightsSection({
     </div>
   );
 
-  const renderRecommendationCard = () =>
-    !isGenerating && (
-      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl shadow-sm p-4 sm:p-6 border border-blue-100 animate-slide-in-from-bottom mt-6">
-        <div className="flex items-start space-x-4">
-          <Rocket className="w-6 h-6 text-blue-600 mt-1" />
-          <div>
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">
-              Recommended Action
-            </h4>
-            <p className="text-gray-700 text-sm">
-              {aiInsights?.overallRecommendation}
-            </p>
-          </div>
-        </div>
-      </div>
-    );
-
-  return (
-    <div className="mt-8 space-y-6">
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-        <div className="flex items-center w-full justify-between">
-          <div className="flex items-center">
-            <BrainCircuit className="w-8 h-8 text-blue-600 mr-3" />
-            <h3 className="text-xl sm:text-2xl font-semibold text-gray-800">
-              AI-Generated Insights
-            </h3>
-          </div>
-          {aiInsights && (
-            <button
-              onClick={() => setIsInsightsCollapsed(!isInsightsCollapsed)}
-              className="p-2 hover:bg-gray-100 rounded-full transition-colors"
-              aria-label={
-                isInsightsCollapsed ? "Expand insights" : "Collapse insights"
-              }
-            >
-              {isInsightsCollapsed ? (
-                <ChevronDown className="w-6 h-6 text-gray-500" />
-              ) : (
-                <ChevronUp className="w-6 h-6 text-gray-500" />
-              )}
-            </button>
-          )}
-        </div>
-        {!aiInsights && (
-          <button
-            onClick={onGenerateInsights}
-            disabled={isGenerating}
-            className={`w-full sm:w-auto flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-              isGenerating
-                ? "bg-blue-100 text-blue-400 cursor-not-allowed"
-                : "bg-blue-600 text-white hover:bg-blue-700"
-            }`}
-          >
+  const renderRecommendationCard = () => (
+    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl shadow-sm p-4 sm:p-6 border border-blue-100 animate-slide-in-from-bottom mt-6">
+      <div className="flex items-start space-x-4">
+        <Rocket className="w-6 h-6 text-blue-600 mt-1" />
+        <div>
+          <h4 className="text-lg font-semibold text-gray-800 mb-2">
+            Recommended Action
+          </h4>
+          <p className="text-gray-700 text-sm">
             {isGenerating ? (
-              <>
-                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                Generating...
-              </>
+              <div className="space-y-2">
+                <div className="h-4 w-full bg-gray-200 rounded animate-pulse"></div>
+                <div className="h-4 w-3/4 bg-gray-200 rounded animate-pulse"></div>
+              </div>
             ) : (
-              "Generate Insights"
+              aiInsights?.overallRecommendation
             )}
-          </button>
-        )}
-      </div>
-
-      {!aiInsights && !isGenerating ? (
-        <div className="text-center py-12">
-          <BrainCircuit className="w-16 h-16 text-gray-300 mx-auto mb-4" />
-          <p className="text-gray-500">
-            Click "Generate Insights" to analyze this task's performance data
           </p>
         </div>
-      ) : (
-        <div
-          ref={contentRef}
-          className="transition-all duration-700 ease-in-out overflow-hidden"
-          style={{
-            height: contentHeight === undefined ? "auto" : `${contentHeight}px`,
-            opacity: isInsightsCollapsed ? 0.3 : 1,
-            transform: isInsightsCollapsed
-              ? "translateY(-10px)"
-              : "translateY(0)",
-          }}
-        >
-          {/* Key Metrics Cards */}
-          {renderMetricsSection()}
+      </div>
+    </div>
+  );
 
-          {/* Strengths and Development Areas */}
-          {renderInsightsContent()}
+  // Render the empty state when no insights are available
+  const renderEmptyState = () => (
+    <div className="flex flex-col items-center justify-center text-center py-8 px-4 bg-blue-50/50 rounded-xl border border-blue-100 min-h-[300px]">
+      <BrainCircuit className="w-16 h-16 text-blue-500 mb-3 opacity-75" />
+      <h3 className="text-2xl font-semibold text-gray-800 mb-2">AI-Generated Insights</h3>
+      <p className="text-gray-600 max-w-md mb-4 text-md">
+        Generate AI-powered insights to identify strengths, areas for improvement, and personalized recommendations.
+      </p>
+      <button
+        onClick={onGenerateInsights}
+        disabled={isGenerating}
+        className={`flex items-center justify-center px-5 py-2 rounded-lg font-medium transition-all duration-200 ${
+          isGenerating
+            ? "bg-blue-100 text-blue-400 cursor-not-allowed"
+            : "bg-blue-600 text-white hover:bg-blue-700 shadow-sm hover:shadow"
+        }`}
+      >
+        {isGenerating ? (
+          <>
+            <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+            Generating Insights...
+          </>
+        ) : (
+          <>
+            <Sparkles className="w-4 h-4 mr-2" />
+            Generate Insights
+          </>
+        )}
+      </button>
+    </div>
+  );
 
-          {/* Recommendation Card */}
-          {renderRecommendationCard()}
+  // Loading state - rendered when insights are being generated
+  const renderLoadingState = () => (
+    <div className="space-y-6 min-h-[400px]">
+      <div className="flex items-center">
+        <BrainCircuit className="w-8 h-8 text-blue-600 mr-3" />
+        <h3 className="text-xl sm:text-2xl font-semibold text-gray-800">
+          AI-Generated Insights
+        </h3>
+      </div>
+      
+      <div
+        ref={contentRef}
+        className="transition-all duration-700 ease-in-out overflow-hidden"
+        style={{
+          height: contentHeight === undefined ? "auto" : `${contentHeight}px`,
+          opacity: isInsightsCollapsed ? 0.3 : 1,
+          transform: isInsightsCollapsed
+            ? "translateY(-10px)"
+            : "translateY(0)",
+        }}
+      >
+        {/* Metrics section */}
+        {renderMetricsSection()}
+        
+        {/* Strengths and Development Areas */}
+        {renderInsightsContent()}
+        
+        {/* Recommendation Card */}
+        {renderRecommendationCard()}
+      </div>
+    </div>
+  );
+
+  // Content state - rendered when insights are available
+  const renderContentState = () => (
+    <div className={`space-y-6 ${isInsightsCollapsed ? '' : 'min-h-[400px]'}`}>
+      <div className="flex items-center w-full justify-between">
+        <div className="flex items-center">
+          <BrainCircuit className="w-8 h-8 text-blue-600 mr-3" />
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-800">
+            AI-Generated Insights
+          </h3>
         </div>
+        <button
+          onClick={() => setIsInsightsCollapsed(!isInsightsCollapsed)}
+          className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+          aria-label={
+            isInsightsCollapsed ? "Expand insights" : "Collapse insights"
+          }
+        >
+          {isInsightsCollapsed ? (
+            <ChevronDown className="w-6 h-6 text-gray-500" />
+          ) : (
+            <ChevronUp className="w-6 h-6 text-gray-500" />
+          )}
+        </button>
+      </div>
+      
+      <div
+        ref={contentRef}
+        className="transition-all duration-700 ease-in-out overflow-hidden"
+        style={{
+          height: contentHeight === undefined ? "auto" : `${contentHeight}px`,
+          opacity: isInsightsCollapsed ? 0.3 : 1,
+          transform: isInsightsCollapsed
+            ? "translateY(-10px)"
+            : "translateY(0)",
+          marginBottom: isInsightsCollapsed ? "-6px" : "0", // Remove the bottom margin when collapsed
+        }}
+      >
+        {/* Metrics section - moved inside collapsible container */}
+        {renderMetricsSection()}
+        
+        {/* Strengths and Development Areas */}
+        {renderInsightsContent()}
+        
+        {/* Recommendation Card */}
+        {renderRecommendationCard()}
+      </div>
+    </div>
+  );
+
+  return (
+    <div className="mt-8">
+      {!aiInsights && !isGenerating ? (
+        renderEmptyState()
+      ) : isGenerating ? (
+        renderLoadingState()
+      ) : (
+        renderContentState()
       )}
     </div>
   );
