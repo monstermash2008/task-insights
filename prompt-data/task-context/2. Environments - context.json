@@ -1,0 +1,116 @@
+{
+  "slides": [
+    {
+      "name": "MCQ: What is an Environment?",
+      "type": "multichoice",
+      "content": "An environment is:\n\nOptions:\n1. All of the living things in an area.\n2. All of the non-living things in an area.\n3. All of the living and non-living things in an area.",
+      "answer": "All of the living and non-living things in an area",
+      "explanation": "An environment includes both living and non-living things!"
+    },
+    {
+      "name": "MCQ: Living and Non-living Things in an Environment 1",
+      "type": "multichoice",
+      "content": "Fish can only live in water that is within a certain temperature range (not too hot, not too cold!). Is the water temperature a living or non-living factor for the fish?\n\nOptions:\n1. Living\n2. Non-living",
+      "answer": "Non-living",
+      "explanation": "Temperature is not a living thing. It does not meet the requirements of MRS C GREN!"
+    },
+    {
+      "name": "MCQ: Living and Non-living Things in an Environment 2",
+      "type": "multichoice",
+      "content": "A gazelle is munching grass on the savannah when it is surprised by a hungry cheetah. Is the cheetah a living or non-living factor for the gazelle?\n\nOptions:\n1. Living\n2. Non-living",
+      "answer": "Living",
+      "explanation": "The cheetah is a living thing. It meets all the requirements of MRS C GREN!"
+    },
+    {
+      "name": "MCQ: Living and Non-living Things in an Environment 3",
+      "type": "multichoice",
+      "content": "Sunlight is needed for plants to grow. Is sunlight a living or non-living factor for plants?\n\nOptions:\n1. Living\n2. Non-living",
+      "answer": "Non-living",
+      "explanation": "Sunlight is not alive. It does not meet the requirements of MRS C GREN!"
+    },
+    {
+      "name": "MCQ: Living and Non-living Things in an Environment 4",
+      "type": "multichoice",
+      "content": "Grass is a major food source for goats. Is grass a living or non-living factor for goats?\n\nOptions:\n1. Living\n2. Non-living",
+      "answer": "Living",
+      "explanation": "Grass is a living thing. It meets all the requirements for MRS C GREN!"
+    },
+    {
+      "name": "MCQ: Living and Non-living Things in an Environment 5",
+      "type": "multichoice",
+      "content": "Some plants can only grow in areas of low rainfall. Is rainfall a living or non-living factor for these plants?\n\nOptions:\n1. Living\n2. Non-living",
+      "answer": "Non-living",
+      "explanation": "Rainfall is a not a living thing. It does not meet the requirements for MRS C GREN!"
+    },
+    {
+      "name": "MCQ: Living Things in the Ocean",
+      "type": "multichoice",
+      "content": "The ocean is an example of an environment. It contains a set of living and non-living things. What are some examples of living things in the ocean?\n\nOptions:\n1. Kelp\n2. Seawater\n3. Featherstars\n4. Turtles\n5. Dolphins\n6. Sunlight",
+      "answer": "Kelp, Featherstars, Turtles, Dolphins",
+      "explanation": "Remember, living things must carry out all the features of MRS C GREN: Movement, Respiration, Sensitivity, Cells, Growth, Reproduction, Excretion, Nutrition. Dolphins, kelp, turtles and featherstars are all living things!"
+    },
+    {
+      "name": "MCQ: Non-living Things in Forests",
+      "type": "multichoice",
+      "content": "Forests are an example of an environment. They contain a set of living and non-living things. What are some examples of non-living things in forests?\n\nOptions:\n1. Frogs\n2. Sunlight\n3. Soil\n4. Mushrooms\n5. Trees\n6. Rain",
+      "answer": "Sunlight, Soil, Rain",
+      "explanation": "Remember, living things must carry out all the features of MRS C GREN: Movement, Respiration, Sensitivity, Cells, Growth, Reproduction, Excretion, Nutrition. Sunlight, rain and soil do not carry out these processes. Therefore, they are non-living!"
+    },
+    {
+      "name": "Introduction: Environments 1",
+      "type": "information",
+      "content": "Kia ora, hello! Now that we know the difference between living and non-living things, let's look at environments! In this lesson, you will learn: 1. What an environment is. 2. About living and non-living things in an environment."
+    },
+    {
+      "name": "Introduction: Environments 2",
+      "type": "information",
+      "content": "Environments are all of the living and non-living things in an area, from the trees and birds, to the rain and soil!"
+    },
+    {
+      "name": "Introduction: Living Things in an Environment 1",
+      "type": "information",
+      "content": "The growth and survival of living things is affected by other living things. Think of animals - they must eat other living things to survive, whether it be a tasty leaf or some other animal! Living things also rely on each other for other purposes, like protection or even transport."
+    },
+    {
+      "name": "Introduction: Living Things in an Environment 2",
+      "type": "information",
+      "content": "Remember, living things must meet all eight of the requirements of MRS C GREN. Snails, whales, trees, grass and mushrooms are all living things in an environment. They all affect the growth or survival of other living things!"
+    },
+    {
+      "name": "Introduction: Non-living Things in an Environment 1",
+      "type": "information",
+      "content": "Living things don't just rely on each other to survive. They also share a close relationship with the non-living things in their physical environment. Things like weather, water and soil all affect the growth and survival of living things."
+    },
+    {
+      "name": "Introduction: Non-living Things in an Environment 2",
+      "type": "information",
+      "content": "Non-living parts of the environment affect the growth or survival of living things. They often determine what kinds of living things can live there. This is why plants can't survive in flooded soils, why fish can't survive in boiling water, and why we can't survive in the middle of a volcano!"
+    },
+    {
+      "name": "Introduction: Environments 3",
+      "type": "information",
+      "content": "The sea, forests and deserts are all different types of environments. They each contain a set of living and non-living things! For example, deserts contain sunlight and sand. These are non-living things. They also contain plants and animals, which are living things!"
+    },
+    {
+      "name": "Summary: Environments 1",
+      "type": "information",
+      "content": "Tino pai, well done! You've completed this lesson on environments! Let's take a minute to go over what we've learned."
+    },
+    {
+      "name": "Summary: Environments 2",
+      "type": "information",
+      "content": "Environments are all of the living and non-living things in a specific area, from the trees and birds, to the rain and soil! The sea, forests and deserts are all different types of environments."
+    },
+    {
+      "name": "Summary: Environments 3",
+      "type": "information",
+      "content": "The growth and survival of living things is affected by other living things. Non-living parts of the physical environment also affect the growth and survival of living things."
+    },
+    {
+      "name": "Scratchpad: Living and Non-living Things in an Environment",
+      "type": "drawing",
+      "content": "In the environment pictured below, circle at least one living factor in blue, and at least one non-living factor in red.",
+      "answer": "Non-living factors include the sun, rain and water. Living factors include all plants, animals and fungi!"
+    }
+  ]
+}

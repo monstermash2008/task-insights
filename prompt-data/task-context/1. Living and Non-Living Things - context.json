@@ -1,0 +1,171 @@
+{
+  "slides": [
+    {
+      "name": "Introduction: Living and Non-living Things 1",
+      "type": "Information",
+      "content": "**Isn't our planet a wonderful place? **\n\nThere are so many different **living things** out there - from the mighty **whale** to the humble **worm,** from the fantastic **toadstool** to the tiniest **bacterium! **\n\nTry and think of **all** of the living things that you know about. You'll be thinking for a very** long time! **"
+    },
+    {
+      "name": "MCQ: Life Processes 1",
+      "type": "Multiple Choice",
+      "content": "Which of the following processes is **NOT** required for something to be classified as **living?**",
+      "options": [
+        "Respiration",
+        "Reproduction",
+        "Sensitivity",
+        "Growth",
+        "Movement",
+        "Excretion",
+        "Nutrition",
+        "Dancing",
+        "Sleep"
+      ],
+      "answer": ["Dancing", "Sleep"],
+      "explanation": "There are **eight** things that something must carry out to be classified as alive. These are:\n\nMovement\nRespiration\nSensitivity\nCells\nGrowth\nReproduction\nExcretion\nNutrition"
+    },
+    {
+      "name": "MCQ: Living or Non-Living? 2",
+      "type": "Multiple Choice",
+      "content": "The robot above carries out **some** of the eight processes in **MRS C GREN,** but **not all of them.**\n\nIs the robot **living** or **non-living?**",
+      "options": ["Living", "Non-living"],
+      "answer": "Non-living",
+      "explanation": "If something carries out some but not all of the eight life processes described by MRS C GREN, it is classified as **non-living**."
+    },
+    {
+      "name": "MCQ: Living or Non-Living? 1",
+      "type": "Multiple Choice",
+      "content": "Cows carry out **all** of the eight processes in **MRS C GREN.**\n\nIs the cow **living** or **non-living?**",
+      "options": ["Living", "Non-living"],
+      "answer": "Living",
+      "explanation": "If something carries out all of the eight life processes described by MRS C GREN, it is classified as **living.**"
+    },
+    {
+      "name": "MCQ: Living or Non-Living? 3",
+      "type": "Multiple Choice",
+      "content": "Mould carries out **all** of the eight processes in **MRS C GREN.**\n\nIs mould **living** or **non-living?**",
+      "options": ["Living", "Non-living"],
+      "answer": "Living",
+      "explanation": "If something carries out all of the eight life processes described by MRS C GREN, it is classified as **living.** Some things that you'd never think of can still be living!"
+    },
+    {
+      "name": "Drag and Drop: MRS C GREN 1",
+      "type": "Fill in the gaps",
+      "content": "M: All or part of a living thing is able to [move].\nR: Stands for [respiration]: this is how living things turn food and air into energy.\nS: Living things are [sensitive] to things in their environment.\nC: Living things are made up of cells.",
+      "answer": {
+        "gap1": "move",
+        "gap2": "respiration",
+        "gap3": "sensitive"
+      }
+    },
+    {
+      "name": "Drag and Drop: MRS C GREN 2",
+      "type": "Fill in the gaps",
+      "content": "G: Living things grow, and therefore increase in [size] over time.\nR: Living things can [reproduce], and some can have many offspring.\nE: Living thing have to [excrete] waste from their bodies.\nN: Living things take in and use [nutrients].",
+      "answer": {
+        "gap1": "size",
+        "gap2": "reproduce",
+        "gap3": "excrete",
+        "gap4": "nutrients"
+      }
+    },
+    {
+      "name": "MCQ: Life Processes 2",
+      "type": "Multiple Choice",
+      "content": "What is the **acronym** for determining whether something is **living?**",
+      "options": ["GREMLIN", "MR GREM", "MRS C GREN", "SRM NERG"],
+      "answer": "MRS C GREN",
+      "explanation": "The acronym we use for determining whether something is living or not living is **MRS C GREN.**"
+    },
+    {
+      "name": "Long Answer: Fire",
+      "type": "Long Answer",
+      "content": "Is fire a **living thing** or a **non-living thing?**\n\nUse **MRS C GREN** to **explain** your answer.",
+      "answer": "Fire is not a living thing because it does not carry out all seven processes described by MRS C GREN.",
+      "keywords": [
+        "Fire carries out...",
+        "Fire does not carry out...",
+        "Fire is/is not a living thing because..."
+      ]
+    },
+    {
+      "name": "Introduction: Living and Non-living Things 2",
+      "type": "Information",
+      "content": "Our planet is also full of things that **aren't living.** \n\n**Rocks, water **and even the **chair** you are sitting on are all **non-living things!**"
+    },
+    {
+      "name": "Introduction: Living and Non-living Things 4",
+      "type": "Information",
+      "content": "To determine whether a thing is **living** or **non-living,** we can look at some of its **characteristics** or **features**. \n\nThere are **eight features** that things need to have for them to be **living.** Living things must have **ALL** of these features, otherwise they are **not living!**"
+    },
+    {
+      "name": "Introduction: Living and Non-living Things 5",
+      "type": "Information",
+      "content": "We can remember these **eight features** by using the acronym:\n\n**MRS C GREN.**"
+    },
+    {
+      "name": "Introduction: Movement 1",
+      "type": "Information",
+      "content": "**Movement**\n\nThe first letter in **MRS C GREN,** 'M', stands for **Movement.** \n\nAll living things **move.** Animals use **structures** like legs or wings to help them move."
+    },
+    {
+      "name": "Introduction: Movement 2",
+      "type": "Information",
+      "content": "What about **plants?** They don't move...do they? How come they're a **living thing? **\n\nActually, plants move too! They may not move their **whole bodies** (like animals do), but they can move **parts** of themselves, like when they move their leaves to **face the sun!**"
+    },
+    {
+      "name": "Introduction: Respiration",
+      "type": "Information",
+      "content": "**Respiration**\n\nWe all need **energy** to live, and **respiration** is what helps us get it. \n\nRespiration converts the **food** we eat and the **air** we breathe into **energy!**"
+    },
+    {
+      "name": "Introduction: Sensitivity",
+      "type": "Information",
+      "content": "**Sensitivity**\n\nAll **living things** are **sensitive** to the environment around them. \n\nHumans have **five main senses:** sight, hearing, taste, smell and touch."
+    },
+    {
+      "name": "Introduction: Growth",
+      "type": "Information",
+      "content": "**Growth** \n\nAll **living things** **grow** as they get older. \n\nIf they didn't, dogs would be puppies, trees would be seeds and you would be a baby for **your entire life!**"
+    },
+    {
+      "name": "Introduction: Reproduction",
+      "type": "Information",
+      "content": "**Reproduction**\n\nAll **living things** are capable of **reproduction.**\n\nReproduction means that living things can produce **offspring,** or babies. You are the offspring of your parents, which means they **reproduced** to make you!"
+    },
+    {
+      "name": "Introduction: Excretion",
+      "type": "Information",
+      "content": "**Excretion**\n\n**Excretion** is the **removal of waste products** from the body. \n\nWe humans do this every time we visit the **toilet,** otherwise known as peeing and pooping."
+    },
+    {
+      "name": "Introduction: Nutrition",
+      "type": "Information",
+      "content": "**Nutrition**\n\n**Food** is amazing, but have you ever thought about **why** we eat it? \n\nLiving things need **energy** to grow and move. As animals, we gain this energy by **eating food.** Other **living things** obtain it in **other ways.**"
+    },
+    {
+      "name": "Summary: Living and Non-living Things 1",
+      "type": "Information",
+      "content": "Awesome work! You've finished this lesson on **Living and Non-living Things!**\n\n**You should now be able to answer the following questions:**\n\n1. What is the difference between a **living** and a **non-living** thing?\n2. What does **MRS C GREN** stand for?"
+    },
+    {
+      "name": "Summary: Living and Non-living Things 2",
+      "type": "Information",
+      "content": "There are **eight features** that things need to have for them to be **living.** \n\nLiving things must have **ALL** of these features, otherwise they are **not living.**"
+    },
+    {
+      "name": "Summary: Living and Non-living Things 3",
+      "type": "Information",
+      "content": "We can remember these **eight features** by using the acronym:\n\n**MRS C GREN.**"
+    },
+    {
+      "name": "Introduction: Living and Non-living Things 3",
+      "type": "Information",
+      "content": "But **how** do we know what is **living** and **non-living?** In this Smart Lesson, you will learn the answer!"
+    },
+    {
+      "name": "Introduction: Cells",
+      "type": "Information",
+      "content": "**Cells**\n\nEvery **living thing** is made up of **cells!**"
+    }
+  ]
+}

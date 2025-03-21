@@ -1,0 +1,1226 @@
+[
+  {
+    "ID": 4543382,
+    "ContentID": 4543382,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Plant Food 1",
+      "TextTemplate": "How do **@@228B22@plants@@** get @@fb6611@**food?  **@@\n\n[multichoice id=\"MultiChoice_1\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499296160.973331f/1499296176091-1398692698979541.gif\" width=\"200\" height=\"200\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Plants **produce their own food** through a chemical process that occurs in their @@228B22@**leaves. **@@",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "By cooking it. ",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "By buying it from McDonalds. ",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "By eating other plants. ",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "By producing their own. ",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 4,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 359,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543383,
+    "ContentID": 4543383,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "FillInTheGaps_1",
+          "VariableName": "ans_FillInTheGaps_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "Drag and Drop: Plant Food 2",
+      "TextTemplate": "[fill-gaps id=\"FillInTheGaps_1\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1476138160.258881f/1476138167973-3730988550076209.gif\" width=\"350\" height=\"210\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Plants **produce their own food** through a chemical process that occurs in their @@228B22@**leaves. **@@ This process requires carbon dioxide, sunlight and water! ",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        },
+        {
+          "Name": "ans_FillInTheGaps_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "TextTemplate": "@@228B22@**Plants**@@ require carbon dioxide, [0: sunlight] and [1: water] to create their own **@@8@food. ",
+          "PromptText": "Drag and drop the correct options into the gaps below: ",
+          "InputType": 2,
+          "ShowAllGaps": true,
+          "NumberOfGaps": -1,
+          "Gaps": [
+            {
+              "ID": 0,
+              "HintText": "",
+              "CorrectOptions": ["sunlight", "water"],
+              "IncorrectOptions": ["birds", "money"]
+            },
+            {
+              "ID": 1,
+              "HintText": "",
+              "CorrectOptions": ["water", "sunlight"],
+              "IncorrectOptions": ["oven"]
+            }
+          ],
+          "NumberOfHints": 5,
+          "CaseSensitive": false,
+          "PunctuationSensitive": false,
+          "TargetLanguage": -1,
+          "TextAlignment": "center",
+          "ComponentID": "FillInTheGaps_1",
+          "ComponentTypeCode": "FILL_IN_GAPS_COMPONENT",
+          "Width": 0,
+          "Height": 0,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543384,
+    "ContentID": 4543384,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1_2",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Non-living Factors Affecting Plants",
+      "TextTemplate": "Which of these are important **@@7C0BAE@non-living@@** factors for plants? \n\n//**Hint: There are three correct answers!**//\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "**Sunlight, rainfall** and **soil** are important **@@7C0BAE@non-living**@@ factors to plants! ",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        },
+        {
+          "Name": "ans_FillInTheGaps_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        },
+        {
+          "Name": "ans_MultiChoice_1_2",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/Images/Content/Science/1370988593780-7663808.png\" width=\"224\" height=\"187\" ] Squirrels",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/English & Literature/1487716310.08921g/1487716312848-148926392050298.jpg\" width=\"295\" height=\"187\" ] Rainfall",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/Images/Content/Geography/1401260504901-14422549.jpg\" width=\"250\" height=\"187\" ] Soil",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1439246089.359381g/1439246078294-1242521036.jpg\" width=\"250\" height=\"187\" ] Sunlight",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/Images/Content/Science/1369871415347-7397055.png\" width=\"237\" height=\"187\" ] Deer",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1455054601.44871g/1455054604516-2312604535136211.jpg\" width=\"279\" height=\"187\" ] Mushrooms",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 6,
+          "CorrectDisplayed": 3,
+          "GridColumns": 3,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": true,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 300,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543385,
+    "ContentID": 4543385,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Animals and Plants",
+      "TextTemplate": "Why are @@0066cc@**animals**@@ an important **@@228B22@living**@@ factor to plants? \n\n//Hint: There are @@7C0BAE@**three**@@ correct answers! //\n\n[multichoice id=\"MultiChoice_1\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1489699012.65411g/1489699016723-4341556514911312.jpg\" width=\"350\" height=\"262\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Animals are important **@@228B22@living factors**@@ to plants for a number of reasons. They **eat** plants, which affects their **growth** and **survival**. They also help plants reproduce, by **pollinating** them and **spreading their seeds! **",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "They eat plants.",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They're not. ",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They pollinate plants. ",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They spread the seeds of a plant. ",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They ignore plants entirely. ",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They affect the amount of rainfall. ",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 6,
+          "CorrectDisplayed": 3,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": true,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 350,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543386,
+    "ContentID": 4543386,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1_2",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living Factors Affecting Plants 1",
+      "TextTemplate": "Which of these are important **@@228B22@living@@** factors for plants? \n\n//Hint: There are @@7C0BAE@**three**@@ correct answers!//\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "**@@228B22@Biotic**@@ factors are those that are **@@228B22@living.**@@ \n\n**Deer, hummingbirds** and **other trees** are important **@@228B22@biotic**@@ factors to plants! ",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        },
+        {
+          "Name": "ans_FillInTheGaps_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        },
+        {
+          "Name": "ans_MultiChoice_1_2",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1439246089.359381g/1439246078294-1242521036.jpg\" width=\"250\" height=\"187\" ] Sunlight",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/English & Literature/1487716310.08921g/1487716312848-148926392050298.jpg\" width=\"295\" height=\"187\" ] Rainfall",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/Images/Content/Geography/1401260504901-14422549.jpg\" width=\"250\" height=\"187\" ] Soil",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1485398770.777711g/1485398784752-221305615352760.png\" width=\"280\" height=\"187\" ] Hummingbirds",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/Images/Content/Science/1369871415347-7397055.png\" width=\"237\" height=\"187\" ] Deer",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/German/1491196097.737361g/1491196127482-4499554891352094.jpg\" width=\"249\" height=\"187\" ] Other Plants",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 6,
+          "CorrectDisplayed": 3,
+          "GridColumns": 3,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": true,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 300,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4558722,
+    "ContentID": 4558722,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Non-living Factors Affecting Plants",
+      "TextTemplate": "What could happen to **plants** if they grow in@@228B22@ **low-quality soil?**@@\n\n[multichoice id=\"MultiChoice_1\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499577147.494491g/1499577147449-3386144459784979.jpg\" width=\"350\" height=\"232\"]\n\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Plants** struggle to grow** in @@228B22@**low quality soils,** @@and may@@0066cc@** die. **@@\n\nThis is because the @@228B22@**soil**@@ does not have enough **nutrients** for the plants to grow. ",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "They may die",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They will grow very quickly",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They will live forever",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They will turn into mushrooms",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 4,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 350,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4558879,
+    "ContentID": 4558879,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living Factors Affecting Plants 2",
+      "TextTemplate": "How do the **shadows** of@@228B22@** tall trees**@@ affect@@0066cc@** small trees?**@@\n\n[multichoice id=\"MultiChoice_1\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499385781.359331g/1499385793893-3751245520565656.jpg\" width=\"450\" height=\"300\"]\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Plants **can** affect each other! \n\nPlants** need sunlight** to grow, so some plants have adapted to grow taller than others.@@228B22@** Tall trees**@@ cast shadows over@@0066cc@** smaller trees,**@@ @@fb6611@**reducing**@@ the amount of** sunlight** they get. ",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "They **reduce** the amount of sunlight reaching small trees.",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "They **increase** the amount of sunlight reaching small trees.",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Tall trees don't cast shadows.",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Trees can't affect each other!",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 4,
+          "CorrectDisplayed": 1,
+          "GridColumns": 1,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 550,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543373,
+    "ContentID": 4543373,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Plants and their Environment",
+      "TextTemplate": "**Tēnā koe, hello! **\n \nIn this @@0066cc@**Smart Lesson, **@@we are going to learn about @@228B22@**plants!**@@ By the end of this lesson, you should be able to talk about the following:\n\n[table border=\"no\" \n| `1.` || What kind of **@@7C0BAE@non-living@@** factors influence the **@@00a6d5@growth@@** and **@@00a6d5@survival@@** of **plants**.\n=\n| `2.` || What kind of **@@228B22@living@@** factors influence the **@@00a6d5@growth@@** and **@@00a6d5@survival@@** of **plants**. \n]\n\n**Let’s go! **\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499296120.117351f/1499296127090-1398692698979541.gif\" width=\"350\" height=\"227\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543374,
+    "ContentID": 4543374,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Non-living Factors Affecting Plants 1",
+      "TextTemplate": "**@@228B22@Plants@@** are **living things,** just like you! \n\nHowever, they don’t **@@fb6611@eat@@** like you do, nor can they **@@0066cc@move@@** to different places to locate food.\n\n**What’s the deal?!**\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499221356.360521f/1499221365295-3503266250022307.gif\" width=\"400\" height=\"240\" ]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543375,
+    "ContentID": 4543375,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Non-living Factors Affecting Plants 2",
+      "TextTemplate": "**Plants** are able to **@@228B22@make their own food@@** through a chemical process that happens in their **@@228B22@leaves. @@**\n\nThis process needs **three** ingredients: **@@0066cc@carbon dioxide@@** (a gas found naturally in the air), **@@fb6611@sunlight@@** and **@@00a6d5@water.@@ **\n\n[image url=\"https://www.languageperfect.com/media/content/German/1454575644.051721g/1454575641557-2808616740639593.jpg\" width=\"400\" height=\"272\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543376,
+    "ContentID": 4543376,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Non-living Factors Affecting Plants 3",
+      "TextTemplate": "Plants that have **access** to **@@fb6611@sunlight@@** and **@@0066cc@water@@** (through **@@0066cc@rainfall@@**) are able to @@228B22@**make food for themselves. **@@\n\nOn the other hand, plants that do **not** have access to sunlight and water @@00a6d5@**do not grow,**@@ and will eventually **die. **\n\nTherefore, **@@fb6611@sunlight@@** and **@@0066cc@water@@** are important **@@7C0BAE@non-living@@** factors to plants!\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499225185.934211f/1499225195071-3503266250022307.gif\" width=\"480\" height=\"270\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543377,
+    "ContentID": 4543377,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Non-living Factors Affecting Plants 4",
+      "TextTemplate": "Another important **@@7C0BAE@non-living@@ factor** for plants is @@0066cc@**soil. **@@\n\nIt may seem boring, but @@0066cc@**soil**@@ is made up of a lot of **@@228B22@different nutrients@@** that plants need to **grow! **\n\nPlants that grow in @@00a6d5@**low quality soils**@@ have a lot of trouble, and may eventually **die.** \n\n[image url=\"https://www.languageperfect.com/media/content/Maths/1478485470.852391f/1478485474535-1148204681684949.gif\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543378,
+    "ContentID": 4543378,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living Factors Affecting Plants 1",
+      "TextTemplate": "The **@@00a6d5@growth@@** and **@@00a6d5@survival@@** of **plants** is also affected by several **@@228B22@living@@** factors. \n\nTo start with: picture a flock of @@7C0BAE@**sheep**@@ in a **grassy field.** \n\nWhat are most of them doing?\n\n[image url=\"https://www.languageperfect.com/media/content/English & Literature/1493609088.350591f/1493609091029-4406311405980022.gif\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543379,
+    "ContentID": 4543379,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living Factors Affecting Plants 2",
+      "TextTemplate": "@@7C0BAE@**Sheep**@@ are almost always @@0066cc@**eating! **@@\n\nThey (and many other animals that eat plants, like giraffes, deer and caterpillars) affect the **@@00a6d5@growth@@** and **@@00a6d5@survival@@** of @@228B22@**plants. **@@\n\nImagine trying to @@0066cc@**grow**@@ with something constantly gnawing at you! \n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499226247.13841g/1499226261160-1223889832116625.jpg\" width=\"400\" height=\"300\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543380,
+    "ContentID": 4543380,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living Factors Affecting Plants 3",
+      "TextTemplate": "@@0066cc@**Animals**@@ don’t just affect plants in a **@@fb6611@negative@@** way. Some animals **@@00a6d5@help@@** plants @@228B22@**reproduce! **@@\n\nAnimals transport plant **@@00a6d5@seeds@@** to new areas. They can also transport **@@0066cc@pollen@@** from one flower to another. **@@0066cc@Pollen@@** is used by flowers to make **@@00a6d5@seeds@@** in the first place!\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1466977215.626761f/1466977217569-1287821692139939.gif\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543381,
+    "ContentID": 4543381,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living Factors Affecting Plants 4",
+      "TextTemplate": "Plants also affect **@@228B22@each other.@@** Because all plants need **@@fb6611@sunlight@@** to grow, some plants are **@@0066cc@adapted@@** to grow @@00a6d5@**taller**@@ than others. \n\nIn forests, these tall trees cast a **shadow** over the forest beneath them. This can reduce the amount of **@@fb6611@light@@** received by **@@0066cc@smaller@@** trees. \n\n[image url=\"https://www.languageperfect.com/media/content/Science/1489615663.047441g/1489615670095-4115949685886699.jpg\" width=\"400\" height=\"265\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543387,
+    "ContentID": 4543387,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 3,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "LongAnswer_1",
+          "VariableName": "ans_LongAnswer_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "Long Answer: Plants as Living Factors",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1458001009.888491g/1458001011588-718460701227166.jpg\" width=\"300\" height=\"200\"]\n\nExplain in your own words how **@@228B22@plants**@@ can act as **@@228B22@living**@@ factors to **other plants**. \n\n[long-answer id=\"LongAnswer_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_LongAnswer_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Format": "RICH",
+          "KeywordMatches": [
+            {
+              "Kind": 0,
+              "Options": [
+                {
+                  "Type": "TEXT",
+                  "Text": "sunlight",
+                  "Pattern": null
+                },
+                {
+                  "Type": "TEXT",
+                  "Text": "sun",
+                  "Pattern": null
+                },
+                {
+                  "Type": "TEXT",
+                  "Text": "light",
+                  "Pattern": null
+                }
+              ],
+              "CaseSensitive": false
+            }
+          ],
+          "LanguageID": -1,
+          "MinimumWordCount": 0,
+          "InitialHTML": null,
+          "ModelAnswerHTML": "<HTML><BODY><P>All plants need sunlight to grow. Some plants have adapted to grow taller than others. When they do, they have access to a lot of sunlight, and cast a shadow over the plants below them. This limits the amount of sunlight that shorter plants can receive, affecting their growth and survival. </P></BODY></HTML>",
+          "MinAnswerTime": 0,
+          "MinAnswerWords": 10,
+          "ApplyGibberishFilter": true,
+          "SpellCheckEnabled": false,
+          "ExpectationParameters": null,
+          "ModelAnswerTitle": null,
+          "ComponentID": "LongAnswer_1",
+          "ComponentTypeCode": "LONG_ANSWER_COMPONENT",
+          "Width": -1,
+          "Height": 0,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 600,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543388,
+    "ContentID": 4543388,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Summary: Plants and their Environment 1",
+      "TextTemplate": "**Tino pai, well done! **You've completed this lesson on **@@228B22@Plants and the Environment!**@@\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499124387.998761f/1499124389257-1010216439353749.gif\" width=\"300\" height=\"225\"]\n\nLet's take a minute to go over what we've learned. ",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543389,
+    "ContentID": 4543389,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Summary: Plants and the Environment 2",
+      "TextTemplate": "The **@@00a6d5@growth**@@ and **@@00a6d5@survival**@@ of plants is affected by several **@@228B22@living**@@ and **@@7C0BAE@non-living**@@ factors! \n\n**@@228B22@Living**@@ factors include animals and other plants. **@@7C0BAE@Non-living**@@ factors include sunlight, water and soil. \n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499295713.433911f/1499295720153-1398692698979541.gif\" width=\"400\" height=\"311\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543390,
+    "ContentID": 4543390,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 3,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "LongAnswer_1",
+          "VariableName": "ans_LongAnswer_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "Extra for Experts: Carnivorous Plants",
+      "TextTemplate": "Some **@@228B22@plants@@** that live in **low quality soils** have adapted to gain their **@@7C0BAE@nutrients@@** in...other ways. \n\nTake a look at the video (`2:56`) below about **@@E04E50@carnivorous**@@ (or, meat-eating) plants! \n\n[youtube v=\"6L_p3ZkSlLo\" start=\"12\" width=\"480\" height=\"385\"]\n\n**Explain how @@0066cc@one@@ of these plants captures its food. **\n\n[long-answer id=\"LongAnswer_1\"]\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_LongAnswer_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Format": "RICH",
+          "KeywordMatches": null,
+          "LanguageID": -1,
+          "MinimumWordCount": 0,
+          "InitialHTML": null,
+          "ModelAnswerHTML": "<HTML><BODY><P>For this question, you may have written about either <B>venus flytraps, sundews, pitcher plants</B> or <B>bladderworts</B>. Here is an example answer on pitcher plants! </P><P/><P>Pitcher plants are made up of a leaf curled up into a tube, shaped like a pitcher. At the bottom of the tube is sweet-smelling liquid that attracts small animals. The animals sit at the top of the pitcher but fall in because the edge is slippery. They are not able to climb out because the inside of the tube is lined with stiff hairs that point downwards. The animals drown in the liquid and are then digested by the plant. </P><P/><P/></BODY></HTML>",
+          "MinAnswerTime": 0,
+          "MinAnswerWords": 10,
+          "ApplyGibberishFilter": true,
+          "SpellCheckEnabled": false,
+          "ExpectationParameters": null,
+          "ModelAnswerTitle": null,
+          "ComponentID": "LongAnswer_1",
+          "ComponentTypeCode": "LONG_ANSWER_COMPONENT",
+          "Width": -1,
+          "Height": 0,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 600,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  }
+]

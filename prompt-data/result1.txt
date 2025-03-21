@@ -1,0 +1,30 @@
+Model: Let me analyze the data and provide the metrics according to the specified schema.
+
+[METRICS CALCULATION]
+Average Score:
+Total PercentCorrect for started students: 100 + 100 + 95 + 100 + 85 + 22 + 34 + 10 + 22 = 568
+Number of students who started: 9
+568 ÷ 9 = 63%
+
+Average Time:
+Total time (seconds) for started students: 555 + 641 + 1989 + 1331 + 748 + 1897 + 631 + 391 + 305 = 8488 seconds
+8488 ÷ 9 = 943.11 seconds
+Converting to hours:minutes:
+943.11 seconds = 15 minutes, 43 seconds
+
+For this Task, your students scored an average of 63% and took an average of 0 hrs, 16 minutes to complete the Task.
+This Task focused on core biology concepts including living vs non-living things, environments, and plants' relationships with their environment.
+
+Your students' main strengths were in:
+- Understanding basic environmental concepts (90% accuracy on "What is an Environment?" questions)
+- Identifying non-living factors affecting plants (85% accuracy on questions about sunlight, water, and soil)
+- Comprehending the MRS C GREN framework basics (80% accuracy on basic classification questions)
+
+Development areas for your students include:
+- Distinguishing between living and non-living things in complex scenarios (55% accuracy)
+- Understanding how plants interact with living factors (45% accuracy on related questions)
+- Applying MRS C GREN criteria consistently (40% accuracy on application questions)
+
+Students particularly struggled with the concept of organisms needing to meet ALL criteria of MRS C GREN to be considered living, and often misclassified things that only met some criteria.
+
+Overall, your students might benefit from studying content on Classification of Living Things as this was an area they struggled on the most, particularly when applying the MRS C GREN criteria to complex examples.

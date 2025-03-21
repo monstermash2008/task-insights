@@ -1,0 +1,1086 @@
+[
+  {
+    "ID": 4543398,
+    "ContentID": 4543398,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: What is an Environment?",
+      "TextTemplate": "An **@@0066cc@environment@@** is: \n\n[multichoice id=\"MultiChoice_1\"]\n \n[image url=\"https://www.languageperfect.com/media/content/German/1449733518.477951g/1449733553177-2484070868478481.jpg\" width=\"300\" height=\"275\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "An **@@0066cc@environment**@@ includes **both** living and non-living things!",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "All of the **@@3@living things**@@ in an area. ",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "All of the **@@7@non-living**@@ things in an area. ",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "All of the **@@3@living@@ and @@7@non-living**@@ things in an area .",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 3,
+          "CorrectDisplayed": 1,
+          "GridColumns": 1,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 500,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543400,
+    "ContentID": 4543400,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 1,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living and Non-living Things in an Environment 1",
+      "TextTemplate": "Fish can only live in water that is within a certain **temperature range** (not too hot, not too cold!).\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1496799782.657581g/1496799789873-3782068038143408.jpg\" width=\"300\" height=\"200\"]\n\nIs the water temperature a @@228B22@**living**@@ or @@7C0BAE@**non-living**@@ factor for the fish?\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Temperature is **not** a living thing. It does not meet the requirements of **@@3@MRS C GREN!",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Living",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 1
+            },
+            {
+              "TextTemplate": "Non-living",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 2
+            }
+          ],
+          "TotalDisplayed": 2,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 150,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543401,
+    "ContentID": 4543401,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 1,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living and Non-living Things in an Environment 2",
+      "TextTemplate": "A gazelle is munching grass on the savannah when it is surprised by a hungry **cheetah.**\n\n[image url=\"https://www.languageperfect.com/media/content/English & Literature/1466652227.79041f/1466652228121-3784269762155080.gif\" width=\"300\" height=\"168\"]\n\nIs the cheetah a a @@228B22@**living**@@ or @@7C0BAE@**non-living**@@ factor for the gazelle?\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "The cheetah is a living thing. It meets the requirements of **@@3@MRS C GREN!",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Living",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 1
+            },
+            {
+              "TextTemplate": "Non-living",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 2
+            }
+          ],
+          "TotalDisplayed": 2,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 150,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543402,
+    "ContentID": 4543402,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 1,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living and Non-living Things in an Environment 3",
+      "TextTemplate": "**Sunlight** is needed for plants to grow.\n\n[image url=\"https://www.languageperfect.com/media/content/German/1448507029.802211g/1448507041199-4431982697943419.jpg\" width=\"300\" height=\"200\"]\n\nIs sunlight a @@228B22@**living**@@ or @@7C0BAE@**non-living**@@ factor for plants?\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Sunlight is not alive. It does not meet the requirements of **@@3@MRS C GREN!",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Living",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 1
+            },
+            {
+              "TextTemplate": "Non-living",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 2
+            }
+          ],
+          "TotalDisplayed": 2,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 150,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543403,
+    "ContentID": 4543403,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 1,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living and Non-living Things in an Environment 4",
+      "TextTemplate": "**Grass** is a major food source for goats.\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1453075175.951621g/1453075177171-3678455245504519.jpg\" width=\"300\" height=\"232\"]\n\nIs **grass** a @@228B22@**living**@@ or @@7C0BAE@**non-living**@@ factor for goats?\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Grass is a living thing. It meets all the requirements for **@@3@MRS C GREN!",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Living",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Non-living",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 2,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 150,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543404,
+    "ContentID": 4543404,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 1,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living and Non-living Things in an Environment 5",
+      "TextTemplate": "Some plants can only grow in areas of **low rainfall. **\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499139743.222141g/1499139755283-4273801963517371.jpg\" width=\"300\" height=\"225\"]\n\nIs **rainfall** a a @@228B22@**living**@@ or @@7C0BAE@**non-living**@@ factor for these plants?\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Rainfall is a not a living thing. It does not meet the requirements for **@@3@MRS C GREN!",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Living",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Non-living",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 2,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 150,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543405,
+    "ContentID": 4543405,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [],
+      "Title": "MCQ: Living Things in the Ocean",
+      "TextTemplate": "The **@@00a6d5@ocean@@** is an example of an **@@0066cc@environment.@@** It contains a set of **@@228B22@living@@** and **@@7C0BAE@non-living@@** things. \n\nWhat are some examples of **@@228B22@living things@@** in the ocean? \n\n//**Hint: There are four correct answers!**//\n\n[multichoice id=\"MultiChoice_1\"]\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Remember, living things must carry out **all** the features of **@@228B22@MRS C GREN: \n\n**Movement\n**Respiration\n**Sensitivity\n**Cells\n**Growth\n**Reproduction\n**Excretion\n**Nutrition\n\nDolphins, kelp, turtles and featherstars are **all** @@3@**living things! **@@",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/Images/Content/Science/1369873113166-7397055.jpg\" width=\"220\" height=\"146\"] Kelp",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/German/1452469033.25151g/1452469046388-793339838505014.jpg\" width=\"220\" height=\"146\"] Seawater",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/German/1465684557.618771g/1465684565820-515078079353522.jpg\" width=\"220\" height=\"146\"] Featherstars",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1497324655.896611g/1497324656269-3613670151724952.jpg\" width=\"220\" height=\"137\"] Turtles",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1493248075.126451g/1493248087949-1361516573989195.jpg\" width=\"220\" height=\"146\"] Dolphins",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1439246089.359381g/1439246078294-1242521036.jpg\" width=\"220\" height=\"164\"] Sunlight",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 6,
+          "CorrectDisplayed": 4,
+          "GridColumns": 3,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": true,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 250,
+          "Height": 250,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543406,
+    "ContentID": 4543406,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Non-living Things in Forests",
+      "TextTemplate": "**@@228B22@Forests@@** are an example of an **@@0066cc@environment.@@** They contain a set of **@@228B22@living@@** and **@@7C0BAE@non-living@@** things. \n\nWhat are some examples of **@@7C0BAE@non-living things@@** in forests? \n\n//**Hint: There are three correct answers!**//\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "Remember, living things must carry out **all** the features of **@@228B22@MRS C GREN: \n\n**Movement\n**Respiration\n**Sensitivity\n**Cells\n**Growth\n**Reproduction\n**Excretion\n**Nutrition\n\nSunlight, rain and soil do not carry out these processes. Therefore, they are **@@7@non-living!**@@",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1490919449.161181g/1490919458152-1781882954705836.jpg\" width=\"249\" height=\"187\"] Frogs",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1439246089.359381g/1439246078294-1242521036.jpg\" width=\"263\" height=\"197\"] Sunlight",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1454278647.383971g/1454278668664-2747651329903307.jpg\" width=\"260\" height=\"197\" ] Soil",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1455054601.44871g/1455054604516-2312604535136211.jpg\" width=\"279\" height=\"187\" ] Mushrooms",
+              "Correct": "False",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1489615663.047441g/1489615670095-4115949685886699.jpg\" width=\"282\" height=\"187\" ] Trees",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/German/1467776263.334661g/1467776288446-4337460263902991.jpg\" width=\"280\" height=\"187\" ] Rain",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 6,
+          "CorrectDisplayed": 4,
+          "GridColumns": 3,
+          "FontSize": "medium",
+          "VAlign": "bottom",
+          "AllowMultiSelect": true,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 300,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543391,
+    "ContentID": 4543391,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Environments 1",
+      "TextTemplate": "**Kia ora, hello!**\n\nNow that we know the difference between **@@228B22@living@@** and **@@7C0BAE@non-living@@** things, let’s look at @@0066cc@**environments!**@@\n\nIn this lesson, you will learn: \n\n[table border=\"no\" \n| `1.` || What an **@@0066cc@environment@@** is. \n=\n| `2.` || About **@@228B22@living@@** and **@@7C0BAE@non-living@@** things in an environment.  \n] \n\n[image url=\"https://www.languageperfect.com/media/content/Science/1463521018.936871g/1463521020837-1003642332837049.jpg\" width=\"350\" height=\"232\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543392,
+    "ContentID": 4543392,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Environments 2",
+      "TextTemplate": "**@@0066cc@Environments@@** are all of the **@@228B22@living@@** and **@@7C0BAE@non-living@@** things in an area, from the **trees** and **birds,** to the **rain** and **soil! **\n\n//For a refresher on the difference between living and non-living things, take a look at [link label=\"the previous lesson.\" url=\"https://www.educationperfect.com/app/#/2526238/1883473/activity-starter\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1460499573.558421g/1460499575896-2446216632266860.png\" width=\"300\" height=\"257\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543393,
+    "ContentID": 4543393,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living Things in an Environment 1",
+      "TextTemplate": "The **@@00a6d5@growth**@@ and **@@00a6d5@survival**@@ of @@228B22@**living things**@@ is affected by other **@@228B22@living things.**@@ \n\nThink of animals - they must **@@0066cc@eat@@** other living things to @@00a6d5@**survive,**@@ whether it be a tasty leaf or some other animal! \n\nLiving things also **rely** on each other for other purposes, like @@7C0BAE@**protection**@@ or even@@7C0BAE@** transport. **@@\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499126742.013461f/1499126760618-4323634010268348.gif\" width=\"360\" height=\"222\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543394,
+    "ContentID": 4543394,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living Things in an Environment 2",
+      "TextTemplate": "Remember, **@@228B22@living things**@@ must meet all @@7C0BAE@**eight**@@ of the requirements of **@@228B22@MRS C GREN.@@**\n\nSnails, whales, trees, grass and mushrooms are all @@228B22@**living things**@@ in an environment. They all **affect** the **@@00a6d5@growth@@** or **@@00a6d5@survival@@** of other living things!\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1458771277.393341g/1458771282443-3320343641630557.jpg\" width=\"400\" height=\"320\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543395,
+    "ContentID": 4543395,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Non-living Things in an Environment 1",
+      "TextTemplate": "@@228B22@**Living things**@@ don’t just rely on **each other** to survive. They also share a **close relationship** with the **@@7C0BAE@non-living things@@** in their physical environment.\n\nThings like **@@7C0BAE@weather, water@@** and **@@7C0BAE@soil@@** all affect the **@@00a6d5@growth@@** and **@@00a6d5@survival@@** of @@228B22@**living things.**@@\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1497218798.51111f/1497218803587-1951200977039696.gif\" width=\"350\" height=\"196\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543396,
+    "ContentID": 4543396,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Non-living Things in an Environment 2",
+      "TextTemplate": "@@7C0BAE@**Non-living**@@ parts of the environment affect the@@00a6d5@ **growth**@@ or @@00a6d5@**survival** @@of @@228B22@**living things.**@@ They often **determine** what kinds of@@228B22@ **living things**@@ can live there. \n\nThis is why **plants** can’t survive in **@@00a6d5@flooded soils,@@** why **fish** can’t survive in **@@0066cc@boiling water,@@** and why **we** can’t survive in the **@@fb6611@middle of a volcano!@@ **\n\n[image url=\"https://www.languageperfect.com/media/content/English & Literature/1489701672.31381g/1489701676431-274341385055824.png\" width=\"288\" height=\"280\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543397,
+    "ContentID": 4543397,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Environments 3",
+      "TextTemplate": "The sea, forests and deserts are all different types of **@@fb6611@environments.@@** They each contain a set of **@@228B22@living@@** and **@@7C0BAE@non-living@@** things!\n\nFor example, **@@fb6611@deserts@@** contain sunlight and sand. These are @@7C0BAE@**non-living**@@ things. They also contain plants and animals, which are @@228B22@**living**@@ things!\n\n//For more information on different types of environments, try [link label=\"these lessons.\" url=\"https://www.educationperfect.com/app/#/2526238/activity-selection/4. NZC Level 3 Ecology|3. Adaptations to Global Environments\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499133189.421511f/1499133187290-3717563144396112.gif\" width=\"480\" height=\"200\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543407,
+    "ContentID": 4543407,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Summary: Environments 1",
+      "TextTemplate": "**Tino pai,** well done! You've completed this lesson on **@@0066cc@environments!**@@\n\n[image url=\"https://www.languageperfect.com/media/content/Maths/1476935363.275391f/1476935368201-1705169206174379.gif\" width=\"250\" height=\"250\"]\n\nLet's take a minute to go over what we've learned. ",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543408,
+    "ContentID": 4543408,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Summary: Environments 2",
+      "TextTemplate": "**@@0066cc@Environments@@** are all of the **@@228B22@living@@** and **@@7C0BAE@non-living@@** things in a specific area, from the trees and birds, to the rain and soil! \n\nThe sea, forests and deserts are all different types of **@@0066cc@environments.@@**\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1467853582.010061g/1467853591268-2138829456568439.jpg\" width=\"400\" height=\"267\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543409,
+    "ContentID": 4543409,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Summary: Environments 3",
+      "TextTemplate": "The **@@00a6d5@growth**@@ and **@@00a6d5@survival**@@ of living things is affected by other **@@228B22@living things.**@@ \n\n**@@7C0BAE@Non-living**@@ parts of the physical environment also affect the **@@00a6d5@growth**@@ and **@@00a6d5@survival**@@ of living things. \n\n[image url=\"https://www.languageperfect.com/media/content/German/1469423566.962721g/1469423576071-3619602138900013.jpg\" width=\"400\" height=\"267\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543411,
+    "ContentID": 4543411,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 3,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "ScratchPad_2",
+          "VariableName": "ans_ScratchPad_2",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "Scratchpad: Living and Non-living Things in an Environment",
+      "TextTemplate": "In the **environment** pictured below, circle at least **one** **@@0066cc@living**@@ factor in **@@0066cc@blue,**@@ and at least **one** **@@E04E50@non-living**@@ factor in **@@E04E50@red.**@@\n\n[scratch-pad id=\"ScratchPad_2\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "**@@E04E50@Non-living**@@ factors include the sun, rain and water. \n\n**@@0066cc@Living**@@ factors include all plants, animals and fungi! ",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_ScratchPad_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        },
+        {
+          "Name": "ans_ScratchPad_2",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "QuestionImageURL": "https://www.languageperfect.com/media/content/Science/1499298715.238021g/1499298726436-1398692698979541.png",
+          "AnswerImageURL": "https://www.languageperfect.com/media/content/Science/1499298739.040371g/1499298754003-1398692698979541.png",
+          "HideGridLines": false,
+          "AnswerStrokes": null,
+          "InitialStrokeColourIndex": 0,
+          "InitialToolName": null,
+          "ComponentID": "ScratchPad_1",
+          "ComponentTypeCode": "SCRATCH_PAD_COMPONENT",
+          "Width": 641,
+          "Height": 436,
+          "Score": 0,
+          "Marked": 0
+        },
+        {
+          "QuestionImageURL": "https://www.languageperfect.com/media/content/Science/1499298908.845821g/1499298920019-1398692698979541.png",
+          "AnswerImageURL": "https://www.languageperfect.com/media/content/Science/1499298915.786271g/1499298937753-1398692698979541.png",
+          "HideGridLines": false,
+          "AnswerStrokes": null,
+          "InitialStrokeColourIndex": 0,
+          "InitialToolName": null,
+          "ComponentID": "ScratchPad_2",
+          "ComponentTypeCode": "SCRATCH_PAD_COMPONENT",
+          "Width": 600,
+          "Height": 436,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  }
+]

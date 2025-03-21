@@ -1,0 +1,460 @@
+[
+  {
+    "task": "1. Living and Non-Living Things",
+    "slides": [
+      {
+        "name": "Introduction: Living and Non-living Things 1",
+        "type": "Information",
+        "content": "**Isn't our planet a wonderful place? **\n\nThere are so many different **living things** out there - from the mighty **whale** to the humble **worm,** from the fantastic **toadstool** to the tiniest **bacterium! **\n\nTry and think of **all** of the living things that you know about. You'll be thinking for a very** long time! **"
+      },
+      {
+        "name": "MCQ: Life Processes 1",
+        "type": "Multiple Choice",
+        "content": "Which of the following processes is **NOT** required for something to be classified as **living?**",
+        "options": [
+          "Respiration",
+          "Reproduction",
+          "Sensitivity",
+          "Growth",
+          "Movement",
+          "Excretion",
+          "Nutrition",
+          "Dancing",
+          "Sleep"
+        ],
+        "answer": ["Dancing", "Sleep"],
+        "explanation": "There are **eight** things that something must carry out to be classified as alive. These are:\n\nMovement\nRespiration\nSensitivity\nCells\nGrowth\nReproduction\nExcretion\nNutrition"
+      },
+      {
+        "name": "MCQ: Living or Non-Living? 2",
+        "type": "Multiple Choice",
+        "content": "The robot above carries out **some** of the eight processes in **MRS C GREN,** but **not all of them.**\n\nIs the robot **living** or **non-living?**",
+        "options": ["Living", "Non-living"],
+        "answer": "Non-living",
+        "explanation": "If something carries out some but not all of the eight life processes described by MRS C GREN, it is classified as **non-living**."
+      },
+      {
+        "name": "MCQ: Living or Non-Living? 1",
+        "type": "Multiple Choice",
+        "content": "Cows carry out **all** of the eight processes in **MRS C GREN.**\n\nIs the cow **living** or **non-living?**",
+        "options": ["Living", "Non-living"],
+        "answer": "Living",
+        "explanation": "If something carries out all of the eight life processes described by MRS C GREN, it is classified as **living.**"
+      },
+      {
+        "name": "MCQ: Living or Non-Living? 3",
+        "type": "Multiple Choice",
+        "content": "Mould carries out **all** of the eight processes in **MRS C GREN.**\n\nIs mould **living** or **non-living?**",
+        "options": ["Living", "Non-living"],
+        "answer": "Living",
+        "explanation": "If something carries out all of the eight life processes described by MRS C GREN, it is classified as **living.** Some things that you'd never think of can still be living!"
+      },
+      {
+        "name": "Drag and Drop: MRS C GREN 1",
+        "type": "Fill in the gaps",
+        "content": "M: All or part of a living thing is able to [move].\nR: Stands for [respiration]: this is how living things turn food and air into energy.\nS: Living things are [sensitive] to things in their environment.\nC: Living things are made up of cells.",
+        "answer": {
+          "gap1": "move",
+          "gap2": "respiration",
+          "gap3": "sensitive"
+        }
+      },
+      {
+        "name": "Drag and Drop: MRS C GREN 2",
+        "type": "Fill in the gaps",
+        "content": "G: Living things grow, and therefore increase in [size] over time.\nR: Living things can [reproduce], and some can have many offspring.\nE: Living thing have to [excrete] waste from their bodies.\nN: Living things take in and use [nutrients].",
+        "answer": {
+          "gap1": "size",
+          "gap2": "reproduce",
+          "gap3": "excrete",
+          "gap4": "nutrients"
+        }
+      },
+      {
+        "name": "MCQ: Life Processes 2",
+        "type": "Multiple Choice",
+        "content": "What is the **acronym** for determining whether something is **living?**",
+        "options": ["GREMLIN", "MR GREM", "MRS C GREN", "SRM NERG"],
+        "answer": "MRS C GREN",
+        "explanation": "The acronym we use for determining whether something is living or not living is **MRS C GREN.**"
+      },
+      {
+        "name": "Long Answer: Fire",
+        "type": "Long Answer",
+        "content": "Is fire a **living thing** or a **non-living thing?**\n\nUse **MRS C GREN** to **explain** your answer.",
+        "answer": "Fire is not a living thing because it does not carry out all seven processes described by MRS C GREN.",
+        "keywords": [
+          "Fire carries out...",
+          "Fire does not carry out...",
+          "Fire is/is not a living thing because..."
+        ]
+      },
+      {
+        "name": "Introduction: Living and Non-living Things 2",
+        "type": "Information",
+        "content": "Our planet is also full of things that **aren't living.** \n\n**Rocks, water **and even the **chair** you are sitting on are all **non-living things!**"
+      },
+      {
+        "name": "Introduction: Living and Non-living Things 4",
+        "type": "Information",
+        "content": "To determine whether a thing is **living** or **non-living,** we can look at some of its **characteristics** or **features**. \n\nThere are **eight features** that things need to have for them to be **living.** Living things must have **ALL** of these features, otherwise they are **not living!**"
+      },
+      {
+        "name": "Introduction: Living and Non-living Things 5",
+        "type": "Information",
+        "content": "We can remember these **eight features** by using the acronym:\n\n**MRS C GREN.**"
+      },
+      {
+        "name": "Introduction: Movement 1",
+        "type": "Information",
+        "content": "**Movement**\n\nThe first letter in **MRS C GREN,** 'M', stands for **Movement.** \n\nAll living things **move.** Animals use **structures** like legs or wings to help them move."
+      },
+      {
+        "name": "Introduction: Movement 2",
+        "type": "Information",
+        "content": "What about **plants?** They don't move...do they? How come they're a **living thing? **\n\nActually, plants move too! They may not move their **whole bodies** (like animals do), but they can move **parts** of themselves, like when they move their leaves to **face the sun!**"
+      },
+      {
+        "name": "Introduction: Respiration",
+        "type": "Information",
+        "content": "**Respiration**\n\nWe all need **energy** to live, and **respiration** is what helps us get it. \n\nRespiration converts the **food** we eat and the **air** we breathe into **energy!**"
+      },
+      {
+        "name": "Introduction: Sensitivity",
+        "type": "Information",
+        "content": "**Sensitivity**\n\nAll **living things** are **sensitive** to the environment around them. \n\nHumans have **five main senses:** sight, hearing, taste, smell and touch."
+      },
+      {
+        "name": "Introduction: Growth",
+        "type": "Information",
+        "content": "**Growth** \n\nAll **living things** **grow** as they get older. \n\nIf they didn't, dogs would be puppies, trees would be seeds and you would be a baby for **your entire life!**"
+      },
+      {
+        "name": "Introduction: Reproduction",
+        "type": "Information",
+        "content": "**Reproduction**\n\nAll **living things** are capable of **reproduction.**\n\nReproduction means that living things can produce **offspring,** or babies. You are the offspring of your parents, which means they **reproduced** to make you!"
+      },
+      {
+        "name": "Introduction: Excretion",
+        "type": "Information",
+        "content": "**Excretion**\n\n**Excretion** is the **removal of waste products** from the body. \n\nWe humans do this every time we visit the **toilet,** otherwise known as peeing and pooping."
+      },
+      {
+        "name": "Introduction: Nutrition",
+        "type": "Information",
+        "content": "**Nutrition**\n\n**Food** is amazing, but have you ever thought about **why** we eat it? \n\nLiving things need **energy** to grow and move. As animals, we gain this energy by **eating food.** Other **living things** obtain it in **other ways.**"
+      },
+      {
+        "name": "Summary: Living and Non-living Things 1",
+        "type": "Information",
+        "content": "Awesome work! You've finished this lesson on **Living and Non-living Things!**\n\n**You should now be able to answer the following questions:**\n\n1. What is the difference between a **living** and a **non-living** thing?\n2. What does **MRS C GREN** stand for?"
+      },
+      {
+        "name": "Summary: Living and Non-living Things 2",
+        "type": "Information",
+        "content": "There are **eight features** that things need to have for them to be **living.** \n\nLiving things must have **ALL** of these features, otherwise they are **not living.**"
+      },
+      {
+        "name": "Summary: Living and Non-living Things 3",
+        "type": "Information",
+        "content": "We can remember these **eight features** by using the acronym:\n\n**MRS C GREN.**"
+      },
+      {
+        "name": "Introduction: Living and Non-living Things 3",
+        "type": "Information",
+        "content": "But **how** do we know what is **living** and **non-living?** In this Smart Lesson, you will learn the answer!"
+      },
+      {
+        "name": "Introduction: Cells",
+        "type": "Information",
+        "content": "**Cells**\n\nEvery **living thing** is made up of **cells!**"
+      }
+    ]
+  },
+  {
+    "task": "2. Environments",
+    "slides": [
+      {
+        "name": "MCQ: What is an Environment?",
+        "type": "multichoice",
+        "content": "An environment is:\n\nOptions:\n1. All of the living things in an area.\n2. All of the non-living things in an area.\n3. All of the living and non-living things in an area.",
+        "answer": "All of the living and non-living things in an area",
+        "explanation": "An environment includes both living and non-living things!"
+      },
+      {
+        "name": "MCQ: Living and Non-living Things in an Environment 1",
+        "type": "multichoice",
+        "content": "Fish can only live in water that is within a certain temperature range (not too hot, not too cold!). Is the water temperature a living or non-living factor for the fish?\n\nOptions:\n1. Living\n2. Non-living",
+        "answer": "Non-living",
+        "explanation": "Temperature is not a living thing. It does not meet the requirements of MRS C GREN!"
+      },
+      {
+        "name": "MCQ: Living and Non-living Things in an Environment 2",
+        "type": "multichoice",
+        "content": "A gazelle is munching grass on the savannah when it is surprised by a hungry cheetah. Is the cheetah a living or non-living factor for the gazelle?\n\nOptions:\n1. Living\n2. Non-living",
+        "answer": "Living",
+        "explanation": "The cheetah is a living thing. It meets all the requirements of MRS C GREN!"
+      },
+      {
+        "name": "MCQ: Living and Non-living Things in an Environment 3",
+        "type": "multichoice",
+        "content": "Sunlight is needed for plants to grow. Is sunlight a living or non-living factor for plants?\n\nOptions:\n1. Living\n2. Non-living",
+        "answer": "Non-living",
+        "explanation": "Sunlight is not alive. It does not meet the requirements of MRS C GREN!"
+      },
+      {
+        "name": "MCQ: Living and Non-living Things in an Environment 4",
+        "type": "multichoice",
+        "content": "Grass is a major food source for goats. Is grass a living or non-living factor for goats?\n\nOptions:\n1. Living\n2. Non-living",
+        "answer": "Living",
+        "explanation": "Grass is a living thing. It meets all the requirements for MRS C GREN!"
+      },
+      {
+        "name": "MCQ: Living and Non-living Things in an Environment 5",
+        "type": "multichoice",
+        "content": "Some plants can only grow in areas of low rainfall. Is rainfall a living or non-living factor for these plants?\n\nOptions:\n1. Living\n2. Non-living",
+        "answer": "Non-living",
+        "explanation": "Rainfall is a not a living thing. It does not meet the requirements for MRS C GREN!"
+      },
+      {
+        "name": "MCQ: Living Things in the Ocean",
+        "type": "multichoice",
+        "content": "The ocean is an example of an environment. It contains a set of living and non-living things. What are some examples of living things in the ocean?\n\nOptions:\n1. Kelp\n2. Seawater\n3. Featherstars\n4. Turtles\n5. Dolphins\n6. Sunlight",
+        "answer": "Kelp, Featherstars, Turtles, Dolphins",
+        "explanation": "Remember, living things must carry out all the features of MRS C GREN: Movement, Respiration, Sensitivity, Cells, Growth, Reproduction, Excretion, Nutrition. Dolphins, kelp, turtles and featherstars are all living things!"
+      },
+      {
+        "name": "MCQ: Non-living Things in Forests",
+        "type": "multichoice",
+        "content": "Forests are an example of an environment. They contain a set of living and non-living things. What are some examples of non-living things in forests?\n\nOptions:\n1. Frogs\n2. Sunlight\n3. Soil\n4. Mushrooms\n5. Trees\n6. Rain",
+        "answer": "Sunlight, Soil, Rain",
+        "explanation": "Remember, living things must carry out all the features of MRS C GREN: Movement, Respiration, Sensitivity, Cells, Growth, Reproduction, Excretion, Nutrition. Sunlight, rain and soil do not carry out these processes. Therefore, they are non-living!"
+      },
+      {
+        "name": "Introduction: Environments 1",
+        "type": "information",
+        "content": "Kia ora, hello! Now that we know the difference between living and non-living things, let's look at environments! In this lesson, you will learn: 1. What an environment is. 2. About living and non-living things in an environment."
+      },
+      {
+        "name": "Introduction: Environments 2",
+        "type": "information",
+        "content": "Environments are all of the living and non-living things in an area, from the trees and birds, to the rain and soil!"
+      },
+      {
+        "name": "Introduction: Living Things in an Environment 1",
+        "type": "information",
+        "content": "The growth and survival of living things is affected by other living things. Think of animals - they must eat other living things to survive, whether it be a tasty leaf or some other animal! Living things also rely on each other for other purposes, like protection or even transport."
+      },
+      {
+        "name": "Introduction: Living Things in an Environment 2",
+        "type": "information",
+        "content": "Remember, living things must meet all eight of the requirements of MRS C GREN. Snails, whales, trees, grass and mushrooms are all living things in an environment. They all affect the growth or survival of other living things!"
+      },
+      {
+        "name": "Introduction: Non-living Things in an Environment 1",
+        "type": "information",
+        "content": "Living things don't just rely on each other to survive. They also share a close relationship with the non-living things in their physical environment. Things like weather, water and soil all affect the growth and survival of living things."
+      },
+      {
+        "name": "Introduction: Non-living Things in an Environment 2",
+        "type": "information",
+        "content": "Non-living parts of the environment affect the growth or survival of living things. They often determine what kinds of living things can live there. This is why plants can't survive in flooded soils, why fish can't survive in boiling water, and why we can't survive in the middle of a volcano!"
+      },
+      {
+        "name": "Introduction: Environments 3",
+        "type": "information",
+        "content": "The sea, forests and deserts are all different types of environments. They each contain a set of living and non-living things! For example, deserts contain sunlight and sand. These are non-living things. They also contain plants and animals, which are living things!"
+      },
+      {
+        "name": "Summary: Environments 1",
+        "type": "information",
+        "content": "Tino pai, well done! You've completed this lesson on environments! Let's take a minute to go over what we've learned."
+      },
+      {
+        "name": "Summary: Environments 2",
+        "type": "information",
+        "content": "Environments are all of the living and non-living things in a specific area, from the trees and birds, to the rain and soil! The sea, forests and deserts are all different types of environments."
+      },
+      {
+        "name": "Summary: Environments 3",
+        "type": "information",
+        "content": "The growth and survival of living things is affected by other living things. Non-living parts of the physical environment also affect the growth and survival of living things."
+      },
+      {
+        "name": "Scratchpad: Living and Non-living Things in an Environment",
+        "type": "drawing",
+        "content": "In the environment pictured below, circle at least one living factor in blue, and at least one non-living factor in red.",
+        "answer": "Non-living factors include the sun, rain and water. Living factors include all plants, animals and fungi!"
+      }
+    ]
+  },
+  {
+    "task": "3. Plants and their Environment",
+    "slides": [
+      {
+        "name": "Introduction: Plants and their Environment",
+        "type": "information",
+        "content": "**Tēnā koe, hello! **\n \nIn this **Smart Lesson, **we are going to learn about **plants!** By the end of this lesson, you should be able to talk about the following:\n\n1. What kind of **non-living** factors influence the **growth** and **survival** of **plants**.\n2. What kind of **living** factors influence the **growth** and **survival** of **plants**."
+      },
+      {
+        "name": "Introduction: Non-living Factors Affecting Plants 1",
+        "type": "information",
+        "content": "**Plants** are **living things,** just like you! \n\nHowever, they don't **eat** like you do, nor can they **move** to different places to locate food.\n\n**What's the deal?!**"
+      },
+      {
+        "name": "Introduction: Non-living Factors Affecting Plants 2",
+        "type": "information",
+        "content": "**Plants** are able to **make their own food** through a chemical process that happens in their **leaves.**\n\nThis process needs **three** ingredients: **carbon dioxide** (a gas found naturally in the air), **sunlight** and **water.**"
+      },
+      {
+        "name": "Introduction: Non-living Factors Affecting Plants 3",
+        "type": "information",
+        "content": "Plants that have **access** to **sunlight** and **water** (through **rainfall**) are able to **make food for themselves.**\n\nOn the other hand, plants that do **not** have access to sunlight and water **do not grow,** and will eventually **die.**\n\nTherefore, **sunlight** and **water** are important **non-living** factors to plants!"
+      },
+      {
+        "name": "Introduction: Non-living Factors Affecting Plants 4",
+        "type": "information",
+        "content": "Another important **non-living factor** for plants is **soil.**\n\nIt may seem boring, but **soil** is made up of a lot of **different nutrients** that plants need to **grow!**\n\nPlants that grow in **low quality soils** have a lot of trouble, and may eventually **die.**"
+      },
+      {
+        "name": "MCQ: Plant Food 1",
+        "type": "multichoice",
+        "content": "How do **plants** get **food?**",
+        "options": [
+          "By cooking it.",
+          "By buying it from McDonalds.",
+          "By eating other plants.",
+          "By producing their own."
+        ],
+        "answer": "By producing their own.",
+        "explanation": "Plants **produce their own food** through a chemical process that occurs in their **leaves.**"
+      },
+      {
+        "name": "Drag and Drop: Plant Food 2",
+        "type": "fill-in-gaps",
+        "content": "**Plants** require carbon dioxide, [sunlight] and [water] to create their own **food.**",
+        "answer": ["sunlight", "water"],
+        "explanation": "Plants **produce their own food** through a chemical process that occurs in their **leaves.** This process requires carbon dioxide, sunlight and water!"
+      },
+      {
+        "name": "Introduction: Living Factors Affecting Plants 1",
+        "type": "information",
+        "content": "The **growth** and **survival** of **plants** is also affected by several **living** factors. \n\nTo start with: picture a flock of **sheep** in a **grassy field.**\n\nWhat are most of them doing?"
+      },
+      {
+        "name": "Introduction: Living Factors Affecting Plants 2",
+        "type": "information",
+        "content": "**Sheep** are almost always **eating!**\n\nThey (and many other animals that eat plants, like giraffes, deer and caterpillars) affect the **growth** and **survival** of **plants.**\n\nImagine trying to **grow** with something constantly gnawing at you!"
+      },
+      {
+        "name": "Introduction: Living Factors Affecting Plants 3",
+        "type": "information",
+        "content": "**Animals** don't just affect plants in a **negative** way. Some animals **help** plants **reproduce!**\n\nAnimals transport plant **seeds** to new areas. They can also transport **pollen** from one flower to another. **Pollen** is used by flowers to make **seeds** in the first place!"
+      },
+      {
+        "name": "Introduction: Living Factors Affecting Plants 4",
+        "type": "information",
+        "content": "Plants also affect **each other.** Because all plants need **sunlight** to grow, some plants are **adapted** to grow **taller** than others. \n\nIn forests, these tall trees cast a **shadow** over the forest beneath them. This can reduce the amount of **light** received by **smaller** trees."
+      },
+      {
+        "name": "MCQ: Non-living Factors Affecting Plants",
+        "type": "multichoice-multi",
+        "content": "Which of these are important **non-living** factors for plants?",
+        "options": [
+          "Squirrels",
+          "Rainfall",
+          "Soil",
+          "Sunlight",
+          "Deer",
+          "Mushrooms"
+        ],
+        "answer": ["Rainfall", "Soil", "Sunlight"],
+        "explanation": "**Sunlight, rainfall** and **soil** are important **non-living** factors to plants!"
+      },
+      {
+        "name": "MCQ: Animals and Plants",
+        "type": "multichoice-multi",
+        "content": "Why are **animals** an important **living** factor to plants?",
+        "options": [
+          "They eat plants.",
+          "They're not.",
+          "They pollinate plants.",
+          "They spread the seeds of a plant.",
+          "They ignore plants entirely.",
+          "They affect the amount of rainfall."
+        ],
+        "answer": [
+          "They eat plants.",
+          "They pollinate plants.",
+          "They spread the seeds of a plant."
+        ],
+        "explanation": "Animals are important **living factors** to plants for a number of reasons. They **eat** plants, which affects their **growth** and **survival**. They also help plants reproduce, by **pollinating** them and **spreading their seeds!**"
+      },
+      {
+        "name": "MCQ: Living Factors Affecting Plants 1",
+        "type": "multichoice-multi",
+        "content": "Which of these are important **living** factors for plants?",
+        "options": [
+          "Sunlight",
+          "Rainfall",
+          "Soil",
+          "Hummingbirds",
+          "Deer",
+          "Other Plants"
+        ],
+        "answer": ["Hummingbirds", "Deer", "Other Plants"],
+        "explanation": "**Biotic** factors are those that are **living.**\n\n**Deer, hummingbirds** and **other trees** are important **biotic** factors to plants!"
+      },
+      {
+        "name": "MCQ: Non-living Factors Affecting Plants",
+        "type": "multichoice",
+        "content": "What could happen to **plants** if they grow in **low-quality soil?**",
+        "options": [
+          "They may die",
+          "They will grow very quickly",
+          "They will live forever",
+          "They will turn into mushrooms"
+        ],
+        "answer": "They may die",
+        "explanation": "Plants **struggle to grow** in **low quality soils,** and may **die.**\n\nThis is because the **soil** does not have enough **nutrients** for the plants to grow."
+      },
+      {
+        "name": "MCQ: Living Factors Affecting Plants 2",
+        "type": "multichoice",
+        "content": "How do the **shadows** of **tall trees** affect **small trees?**",
+        "options": [
+          "They **reduce** the amount of sunlight reaching small trees.",
+          "They **increase** the amount of sunlight reaching small trees.",
+          "Tall trees don't cast shadows.",
+          "Trees can't affect each other!"
+        ],
+        "answer": "They **reduce** the amount of sunlight reaching small trees.",
+        "explanation": "Plants **can** affect each other!\n\nPlants **need sunlight** to grow, so some plants have adapted to grow taller than others. **Tall trees** cast shadows over **smaller trees,** **reducing** the amount of **sunlight** they get."
+      },
+      {
+        "name": "Long Answer: Plants as Living Factors",
+        "type": "long-answer",
+        "content": "Explain in your own words how **plants** can act as **living** factors to **other plants**.",
+        "answer": "Keywords to include: sunlight/sun/light",
+        "explanation": "All plants need sunlight to grow. Some plants have adapted to grow taller than others. When they do, they have access to a lot of sunlight, and cast a shadow over the plants below them. This limits the amount of sunlight that shorter plants can receive, affecting their growth and survival."
+      },
+      {
+        "name": "Summary: Plants and their Environment 1",
+        "type": "information",
+        "content": "**Tino pai, well done!** You've completed this lesson on **Plants and the Environment!**\n\nLet's take a minute to go over what we've learned."
+      },
+      {
+        "name": "Summary: Plants and their Environment 2",
+        "type": "information",
+        "content": "The **growth** and **survival** of plants is affected by several **living** and **non-living** factors!\n\n**Living** factors include animals and other plants. **Non-living** factors include sunlight, water and soil."
+      },
+      {
+        "name": "Extra for Experts: Carnivorous Plants",
+        "type": "long-answer",
+        "content": "Some **plants** that live in **low quality soils** have adapted to gain their **nutrients** in...other ways.\n\nTake a look at the video (2:56) below about **carnivorous** (or, meat-eating) plants!\n\n**Explain how one of these plants captures its food.**",
+        "answer": "Student should describe one of: venus flytraps, sundews, pitcher plants, or bladderworts",
+        "explanation": "For this question, you may have written about either venus flytraps, sundews, pitcher plants or bladderworts. Here is an example answer on pitcher plants!\n\nPitcher plants are made up of a leaf curled up into a tube, shaped like a pitcher. At the bottom of the tube is sweet-smelling liquid that attracts small animals. The animals sit at the top of the pitcher but fall in because the edge is slippery. They are not able to climb out because the inside of the tube is lined with stiff hairs that point downwards. The animals drown in the liquid and are then digested by the plant."
+      }
+    ]
+  }
+]

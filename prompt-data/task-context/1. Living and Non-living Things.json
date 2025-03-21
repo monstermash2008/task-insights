@@ -1,0 +1,1384 @@
+[
+  {
+    "ID": 4543445,
+    "ContentID": 4543445,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living and Non-living Things 1",
+      "TextTemplate": "**Isn’t our planet a wonderful place? **\n\nThere are so many different **@@228B22@living things@@** out there - from the mighty **@@00a6d5@whale@@** to the humble **@@7C0BAE@worm,@@** from the fantastic **@@00a6d5@toadstool@@** to the tiniest @@7C0BAE@**bacterium! **@@\n\nTry and think of **all** of the living things that you know about. You’ll be thinking for a very@@228B22@** long time! **@@\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1498799237.839331f/1498799250422-122578452313106.gif\" width=\"480\" height=\"270\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543459,
+    "ContentID": 4543459,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 1,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Life Processes 1",
+      "TextTemplate": "Which of the following processes is **@@7C0BAE@NOT**@@ required for something to be classified as @@0066cc@**living?**@@ \n\n[multichoice id=\"MultiChoice_1\"]\n\n[image url=\"https://www.languageperfect.com/media/content/French/1423521288.93471g/1423521331097-581409109.png\" width=\"300\" height=\"229\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "There are **eight** things that something must carry out to be classified as alive. These are:\n\n[table border=\"no\"\n| Movement \n=\n| Respiration \n=\n| Sensitivity \n=\n| Cells\n=\n| Growth \n=\n| Reproduction \n=\n| Excretion \n=\n| Nutrition \n]",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Respiration",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Reproduction",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Sensitivity",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Growth",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Movement",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Excretion",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Nutrition",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Dancing",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "Sleep",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 4,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": true,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 200,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 240,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543460,
+    "ContentID": 4543460,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 1,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living or Non-Living? 2",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/German/1448489398.975111g/1448489408805-4431982697943419.png\" width=\"230\" height=\"291\"][image url=\"https://www.languageperfect.com/media/content/Science/1463605004.58361g/1463605005509-1374833454052553.png\" width=\"200\" height=\"328\"]\n\nThe robot above carries out **some** of the eight processes in **@@228B22@MRS C GREN,**@@ but **not all of them. **\n\nIs the robot **@@228B22@living**@@ or **@@7C0BAE@non-living?**@@\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "If something carries out some but not all of the eight life processes described by MRS C GREN, it is classified as @@7C0BAE@**non-living**. @@",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Living",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 1
+            },
+            {
+              "TextTemplate": "Non-living",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 2
+            }
+          ],
+          "TotalDisplayed": 2,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 170,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543462,
+    "ContentID": 4543462,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living or Non-Living? 1",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/German/1479701061.546371g/1479701065158-2884967761454731.jpg\" width=\"400\" height=\"267\"][image url=\"https://www.languageperfect.com/media/content/Science/1463605004.58361g/1463605005509-1374833454052553.png\" width=\"200\" height=\"328\"]\n\nCows carry out @@0066cc@**all**@@ of the eight processes in **@@228B22@MRS C GREN.**@@\n\nIs the cow **@@228B22@living**@@ or **@@7C0BAE@non-living?**@@\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "If something carries out all of the eight life processes described by MRS C GREN, it is classified as **@@228B22@living.@@** ",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Living",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 1
+            },
+            {
+              "TextTemplate": "Non-living",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 2
+            }
+          ],
+          "TotalDisplayed": 2,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 170,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543463,
+    "ContentID": 4543463,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Living or Non-Living? 3",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1446607220.028781g/1446607220911-656435869127058.png\" width=\"444\" height=\"258\"][image url=\"https://www.languageperfect.com/media/content/Science/1463605004.58361g/1463605005509-1374833454052553.png\" width=\"200\" height=\"328\"]\n\nMould carries out @@0066cc@**all**@@ of the eight processes in **@@228B22@MRS C GREN.**@@\n\nIs mould **@@228B22@living**@@ or **@@7C0BAE@non-living?**@@\n\n[multichoice id=\"MultiChoice_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "If something carries out all of the eight life processes described by MRS C GREN, it is classified as **@@228B22@living.@@** Some things that you’d never think of can still be living!",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "Living",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 1
+            },
+            {
+              "TextTemplate": "Non-living",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 2
+            }
+          ],
+          "TotalDisplayed": 2,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 170,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543465,
+    "ContentID": 4543465,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [],
+      "Title": "Drag and Drop: MRS C GREN 1",
+      "TextTemplate": "[fill-gaps id=\"FillInTheGaps_2\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1498175822.195071g/1498175837719-82439342338564.jpg\" width=\"280\" height=\"315\"]\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_FillInTheGaps_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        },
+        {
+          "Name": "ans_FillInTheGaps_2",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "TextTemplate": "[table border=\"no\" \n| align=\"center\" width=70 | **M**: || width=30 | || width=550|  All or part of a living thing is able to [2: move].\n=\n| **R**:  || || Stands for [3: respiration]: this is how living things turn food and air into energy.  \n=\n| **S**: || || Living things are [4: sensitive] to things in their environment.\n=\n| **C**: || || Living things are made up of cells.\n]\n",
+          "PromptText": "Fill in the gaps below using the hints:",
+          "InputType": 2,
+          "ShowAllGaps": true,
+          "NumberOfGaps": -1,
+          "Gaps": [
+            {
+              "ID": 2,
+              "HintText": "",
+              "CorrectOptions": ["move"],
+              "IncorrectOptions": []
+            },
+            {
+              "ID": 3,
+              "HintText": "",
+              "CorrectOptions": ["respiration"],
+              "IncorrectOptions": ["repair"]
+            },
+            {
+              "ID": 4,
+              "HintText": "",
+              "CorrectOptions": ["sensitive"],
+              "IncorrectOptions": ["sensory"]
+            }
+          ],
+          "NumberOfHints": 2,
+          "CaseSensitive": false,
+          "PunctuationSensitive": false,
+          "TargetLanguage": -1,
+          "TextAlignment": "center",
+          "ComponentID": "FillInTheGaps_2",
+          "ComponentTypeCode": "FILL_IN_GAPS_COMPONENT",
+          "Width": 0,
+          "Height": 0,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 480,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543466,
+    "ContentID": 4543466,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [],
+      "Title": "Drag and Drop: MRS C GREN 2",
+      "TextTemplate": "[fill-gaps id=\"FillInTheGaps_2\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1491965132.411081f/1491965141497-2789085497944786.gif\" width=\"360\" height=\"197\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_FillInTheGaps_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        },
+        {
+          "Name": "ans_FillInTheGaps_2",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "TextTemplate": "[table border=\"no\" \n| align=\"center\" width=70 | **G**: || width=30 | || width=650| Living things are able to grow and increase in size over time.\n=\n| **R**:  || || The **@@3@living thing**@@ produces [4: offspring].\n=\n| **E**: || || The **@@3@living thing**@@ removes [5: waste] products from their bodies.\n=\n| **N** || || The **@@3@living thing**@@ takes in and uses [6: food]. \n]",
+          "PromptText": "Drag and drop the correct options into the gaps below: ",
+          "InputType": 2,
+          "ShowAllGaps": true,
+          "NumberOfGaps": -1,
+          "Gaps": [
+            {
+              "ID": 4,
+              "HintText": "",
+              "CorrectOptions": ["offspring"],
+              "IncorrectOptions": []
+            },
+            {
+              "ID": 5,
+              "HintText": "",
+              "CorrectOptions": ["waste"],
+              "IncorrectOptions": []
+            },
+            {
+              "ID": 6,
+              "HintText": "",
+              "CorrectOptions": ["food"],
+              "IncorrectOptions": []
+            }
+          ],
+          "NumberOfHints": 2,
+          "CaseSensitive": false,
+          "PunctuationSensitive": false,
+          "TargetLanguage": -1,
+          "TextAlignment": "center",
+          "ComponentID": "FillInTheGaps_1",
+          "ComponentTypeCode": "FILL_IN_GAPS_COMPONENT",
+          "Width": 0,
+          "Height": 0,
+          "Score": 0,
+          "Marked": 0
+        },
+        {
+          "TextTemplate": "[table border=no\n|align=\"center\" width=70|**G**:||width=30| || width=\"550\"|Living things grow, and therefore increase in [0: size] over time.\n=\n|**R**:|| || Living things can [1: reproduce], and some can have many offspring.\n=\n|**E**:|| || Living thing have to [2: excrete] waste from their bodies.\n=\n|**N**:|| || Living things take in and use [3: nutrients]. \n]",
+          "PromptText": "Drag and drop the hints below to fill in the gaps:",
+          "InputType": 2,
+          "ShowAllGaps": true,
+          "NumberOfGaps": -1,
+          "Gaps": [
+            {
+              "ID": 0,
+              "HintText": "",
+              "CorrectOptions": ["size"],
+              "IncorrectOptions": []
+            },
+            {
+              "ID": 1,
+              "HintText": "",
+              "CorrectOptions": ["reproduce"],
+              "IncorrectOptions": ["regenerate"]
+            },
+            {
+              "ID": 2,
+              "HintText": "",
+              "CorrectOptions": ["excrete"],
+              "IncorrectOptions": []
+            },
+            {
+              "ID": 3,
+              "HintText": "",
+              "CorrectOptions": ["nutrients"],
+              "IncorrectOptions": ["neptune"]
+            }
+          ],
+          "NumberOfHints": 2,
+          "CaseSensitive": false,
+          "PunctuationSensitive": false,
+          "TargetLanguage": -1,
+          "TextAlignment": "center",
+          "ComponentID": "FillInTheGaps_2",
+          "ComponentTypeCode": "FILL_IN_GAPS_COMPONENT",
+          "Width": 0,
+          "Height": 0,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 480,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4558513,
+    "ContentID": 4558513,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [],
+      "Title": "MCQ: Life Processes 2",
+      "TextTemplate": "What is the@@0066cc@** acronym** @@for determining whether something is @@228B22@**living?**@@\n\n[multichoice id=\"MultiChoice_1\"]\n\n[image url=\"https://www.languageperfect.com/media/content/German/1466565190.844661g/1466565211036-4308602489656775.jpg\" width=\"300\" height=\"199\"]\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "The acronym we use for determining whether something is living or not living is @@228B22@**MRS C GREN. **@@\n\n[table border=\"no\"\n| width=100 align=\"center\" | **M** || width=400 | Movement\n=\n| **R** || Respiration \n=\n| **S** || Sensitivity (feeling)\n=\n| **C** || Cells\n=\n| **G** || Growth\n=\n| **R** || Reproduction (producing offspring)\n=\n| **E** || Excretion (pooping) \n=\n| **N** || Nutrition (eating) \n]\n",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "GREMLIN",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "MR GREM",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "MRS C GREN",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 0
+            },
+            {
+              "TextTemplate": "SRM NERG",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 4,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 180,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4558535,
+    "ContentID": 4558535,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "MultiChoice_1",
+          "VariableName": "ans_MultiChoice_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "MCQ: Life Processes 3",
+      "TextTemplate": "**True or false?**\n\n\"There are **@@fb6611@five features@@** that things **need to have** for them to be **@@228B22@living.@@**\"\n\n[multichoice id=\"MultiChoice_1\"]\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499380776.022221g/1499380784058-3751245520565656.jpg\" width=\"300\" height=\"200\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "**This is false!**\n\nThere are **@@0066cc@eight features@@** that things need to have for them to be **@@228B22@living!@@**\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1463605004.58361g/1463605005509-1374833454052553.png\"]",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_MultiChoice_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Options": [
+            {
+              "TextTemplate": "False",
+              "Correct": "true",
+              "Validity": "true",
+              "SortOrder": 1
+            },
+            {
+              "TextTemplate": "True",
+              "Correct": "false",
+              "Validity": "true",
+              "SortOrder": 0
+            }
+          ],
+          "TotalDisplayed": 4,
+          "CorrectDisplayed": 1,
+          "GridColumns": 2,
+          "FontSize": "medium",
+          "VAlign": "middle",
+          "AllowMultiSelect": false,
+          "ComponentID": "MultiChoice_1",
+          "ComponentTypeCode": "MULTICHOICE_COMPONENT",
+          "Width": 100,
+          "Height": 36,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543446,
+    "ContentID": 4543446,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living and Non-living Things 2",
+      "TextTemplate": "Our planet is also full of things that **@@7C0BAE@aren’t living.@@** \n\n**Rocks, water **and even the **chair** you are sitting on are all @@7C0BAE@**non-living things! **@@\n\n[image url=\"https://www.languageperfect.com/media/content/English & Literature/1497498277.04271f/1497498280498-2401000824806999.gif\"]\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543447,
+    "ContentID": 4543447,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living and Non-living Things 4",
+      "TextTemplate": "To determine whether a thing is **@@228B22@living@@** or **@@7C0BAE@non-living,@@** we can look at some of its **characteristics** or **features**. \n\nThere are **@@0066cc@eight features@@** that things need to have for them to be **@@228B22@living.@@** Living things must have @@0066cc@**ALL**@@ of these features, otherwise they are @@7C0BAE@**not living!**@@\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1492057255.066181f/1492057274093-1094795692863087.gif\" width=\"400\" height=\"225\" ]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543450,
+    "ContentID": 4543450,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living and Non-living Things 5",
+      "TextTemplate": "We can remember these **@@0066cc@eight features@@** by using the acronym:\n\n@@228B22@**MRS C GREN. **@@\n\n[table border=\"no\"\n| width=100 align=\"center\" | **M** || width=400 | Movement\n=\n| **R** || Respiration \n=\n| **S** || Sensitivity \n=\n| **C** || Cells\n=\n| **G** || Growth\n=\n| **R** || Reproduction \n=\n| **E** || Excretion  \n=\n| **N** || Nutrition \n]\n\nAs a@@228B22@** living**@@ thing, you do (or are capable of doing) @@0066cc@**all of these things!** @@A@@7C0BAE@** non-living**@@ thing, on the other hand, **is not. ** We will look more into @@228B22@**MRS C GREN**@@ in the next section!\n\n[image url=\"https://www.languageperfect.com/media/content/German/1465684180.087441g/1465684190987-515078079353522.png\" width=\"400\" height=\"244\"]\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543451,
+    "ContentID": 4543451,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Movement 1",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n\n**Movement**\n\nThe first letter in **@@228B22@MRS C GREN,@@** ‘M’, stands for **Movement.** \n\nAll living things **@@fb6611@move.@@** Animals use **@@00a6d5@structures@@** like legs or wings to help them move. \n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499037205.940511g/1499037209470-4026138609402080.jpg\" width=\"399\" height=\"222\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543452,
+    "ContentID": 4543452,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Movement 2",
+      "TextTemplate": "What about **@@228B22@plants?@@** They don’t move...do they? How come they’re a @@228B22@**living thing? **@@\n\nActually, plants move too! They may not move their **@@00a6d5@whole bodies@@** (like animals do), but they can move **@@fb6611@parts@@** of themselves, like when they move their leaves to @@fb6611@**face the sun! **@@\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499037950.187721f/1499037951383-4026138609402080.gif\" width=\"376\" height=\"300\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543453,
+    "ContentID": 4543453,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Respiration",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n\n**Respiration**\n\nWe all need **@@fb6611@energy@@** to live, and **respiration** is what helps us get it. \n\nRespiration converts the **@@228B22@food@@** we eat and the **@@228B22@air@@** we breathe into @@fb6611@**energy! **@@\n\n[image url=\"https://www.languageperfect.com/media/content/Maths/1491947258.645561g/1491947264601-3815586246930701.png\" width=\"300\" height=\"141\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543454,
+    "ContentID": 4543454,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Sensitivity",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n\n**Sensitivity\n\nAll **@@228B22@living things@@** are @@0066cc@**sensitive**@@ to the environment around them. \n\nHumans have@@0066cc@ **five main senses:** @@sight, hearing, taste, smell and touch. \n\nIf you touch a **@@fb6611@hot stove,@@** or a naughty kitten **@@fb6611@claws your hand,@@** you feel **@@228B22@pain@@** - this is what it means to be @@0066cc@**sensitive! **@@\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1448912933.74511g/1448912950225-491954455224470.jpg\" width=\"300\" height=\"359\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543455,
+    "ContentID": 4543455,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Growth",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n\n**Growth** \n\nAll **@@228B22@living things@@** **grow** as they get older. \n\nIf they didn’t, dogs would be puppies, trees would be seeds and you would be a baby for @@00a6d5@**your entire life! **@@\n\n[image url=\"https://www.languageperfect.com/media/content/Maths/1478485470.852391f/1478485474535-1148204681684949.gif\" width=\"390\" height=\"215\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543456,
+    "ContentID": 4543456,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Reproduction",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n\n**Reproduction\n\nAll @@228B22@**living things**@@ are capable of **reproduction. **\n\nReproduction means that living things can produce **@@00a6d5@offspring,@@** or babies. You are the offspring of your parents, which means they **@@0066cc@reproduced@@** to make you! \n\n[image url=\"https://www.languageperfect.com/media/content/German/1480638358.950621g/1480638375419-2792827041847147.jpg\" width=\"340\" height=\"227\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543457,
+    "ContentID": 4543457,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Excretion",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n**Excretion\n\n**Excretion** is the **@@fb6611@removal of waste products@@** from the body. \n\nWe humans do this every time we visit the **@@0066cc@toilet,@@** otherwise known as peeing and pooping. \n\nEvery time we @@228B22@**breathe out,**@@ we remove the waste product **carbon dioxide** from our bodies. This is also** excretion!**\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1458099235.370411g/1458099235756-761434393700316.png\" width=\"160\" height=\"239\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543458,
+    "ContentID": 4543458,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Nutrition",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n\n**Nutrition\n\n **@@0066cc@Food@@** is amazing, but have you ever thought about **@@228B22@why@@** we eat it? \n\nLiving things need **@@fb6611@energy@@** to grow and move. As animals, we gain this energy by @@0066cc@**eating food.** @@Other **@@228B22@living things@@** obtain it in **other ways. **\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1499116207.517871f/1499116211645-4419156850218960.gif\" width=\"300\" height=\"215\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543464,
+    "ContentID": 4543464,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 3,
+    "Definition": {
+      "AnswerLinks": [
+        {
+          "ComponentID": "LongAnswer_1",
+          "VariableName": "ans_LongAnswer_1",
+          "RoundingAmount": 0,
+          "RoundingTypeCode": null,
+          "AcceptableErrorValue": "NaN",
+          "AcceptableErrorTypeCode": null
+        }
+      ],
+      "Title": "Long Answer: Fire",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Maths/1489382898.984021f/1489382902034-1240436008403428.gif\" width=\"350\" height=\"175\"]\n\nIs fire a **@@228B22@living thing@@** or a@@7C0BAE@ **non-living thing?**@@\n\nUse **@@228B22@MRS C GREN@@** to **explain** your answer. \n\n//Feel free to do some research on the internet to help you answer this question!//\n\n[long-answer id=\"LongAnswer_1\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [
+        {
+          "Name": "ans_LongAnswer_1",
+          "TypeCode": "STNG",
+          "Source": {
+            "ConstantValue": "true",
+            "Code": "CONST"
+          },
+          "Options": null
+        }
+      ],
+      "Components": [
+        {
+          "Format": "RICH",
+          "KeywordMatches": [
+            {
+              "Kind": 0,
+              "Options": [
+                {
+                  "Type": "TEXT",
+                  "Text": "Fire carries out...",
+                  "Pattern": null
+                }
+              ],
+              "CaseSensitive": false
+            },
+            {
+              "Kind": 0,
+              "Options": [
+                {
+                  "Type": "TEXT",
+                  "Text": "Fire does not carry out...",
+                  "Pattern": null
+                }
+              ],
+              "CaseSensitive": false
+            },
+            {
+              "Kind": 0,
+              "Options": [
+                {
+                  "Type": "TEXT",
+                  "Text": "Fire is/is not a living thing because...",
+                  "Pattern": null
+                }
+              ],
+              "CaseSensitive": false
+            }
+          ],
+          "LanguageID": -1,
+          "MinimumWordCount": 0,
+          "InitialHTML": null,
+          "ModelAnswerHTML": "<HTML><BODY><P>Fire is able to <B>move</B>, and it can also <B>reproduce</B> (because a spark of fire can travel to a different location and start another fire). Fire seems to carry out <B>nutrition</B>, since it requires fuel. It also <B>grows</B> larger as it consumes more fuel. Fire also carries out something similar to <B>excretion</B>, because it releases a gas when it burns. </P><P/><P>However, fire cannot <B>feel</B> things, does not have <B>cells</B> and it does not carry out <B>respiration</B>. </P><P/><P>Therefore, fire is not a living thing, because it does not carry out <B>all seven</B> of the processes described by <B>MRS C GREN. </B></P></BODY></HTML>",
+          "MinAnswerTime": 0,
+          "MinAnswerWords": 15,
+          "ApplyGibberishFilter": true,
+          "SpellCheckEnabled": false,
+          "ExpectationParameters": null,
+          "ModelAnswerTitle": null,
+          "ComponentID": "LongAnswer_1",
+          "ComponentTypeCode": "LONG_ANSWER_COMPONENT",
+          "Width": -1,
+          "Height": 0,
+          "Score": 0,
+          "Marked": 0
+        }
+      ],
+      "TimerSeconds": 900,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "COMP"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543468,
+    "ContentID": 4543468,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Summary: Living and Non-living Things 1",
+      "TextTemplate": "Awesome work! You've finished this lesson on **@@00a6d5@Living and Non-living Things!**@@\n\n**You should now be able to answer the following questions: \n\n[table border=\"no\" \n| `1.` || What is the difference between a **@@228B22@living@@** and a **@@7C0BAE@non-living@@** thing?\n=\n| `2.` || What does **@@228B22@MRS C GREN@@** stand for?\n] \n\n[image url=\"https://www.languageperfect.com/media/content/English & Literature/1498795698.855521f/1498795711948-3467274829529123.gif\" width=\"245\" height=\"254\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543469,
+    "ContentID": 4543469,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Summary: Living and Non-living Things 2",
+      "TextTemplate": "There are **@@228B22@eight features@@** that things need to have for them to be **@@228B22@living.@@** \n\nLiving things must have **ALL** of these features, otherwise they are @@7C0BAE@**not living.**@@\n\n[image url=\"https://www.languageperfect.com/media/content/Science/1482186377.81211g/1482186384408-2132871752100020.jpg\" width=\"350\" height=\"196\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4543470,
+    "ContentID": 4543470,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Summary: Living and Non-living Things 3",
+      "TextTemplate": "We can remember these **@@228B22@eight features@@** by using the acronym:\n\n@@228B22@**MRS C GREN. **@@\n\n[table border=\"no\"\n| width=100 align=\"center\" | **M** || width=400 | Movement\n=\n| **R** || Respiration \n=\n| **S** || Sensitivity (feeling)\n=\n| **C** || Cells\n=\n| **G** || Growth\n=\n| **R** || Reproduction (producing offspring)\n=\n| **E** || Excretion (pooping) \n=\n| **N** || Nutrition (eating) \n]\n\nAs a living thing, you do (or are capable of doing) @@4@**all of these things!** \n\n[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4557961,
+    "ContentID": 4557961,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Living and Non-living Things 3",
+      "TextTemplate": "But **@@00a6d5@how@@** do we know what is@@228B22@ **living** @@and @@7C0BAE@**non-living? **@@In this Smart Lesson, you will learn the answer! \n\nBy the end of the lesson, you should be able to **answer** the following @@0066cc@**questions: **@@\n\n[table border=\"no\" \n| `1.` || What is the difference between a **@@228B22@living@@** and a **@@7C0BAE@non-living@@** thing?\n=\n| `2.` || What does **@@228B22@MRS C GREN@@** stand for?\n] \n\n[image url=\"https://www.languageperfect.com/media/content/German/1480021835.56251g/1480021854227-767455438135480.jpg\" width=\"400\" height=\"284\"]",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  },
+  {
+    "ID": 4566606,
+    "ContentID": 4566606,
+    "ConceptID": -1,
+    "ConceptDescription": "",
+    "Status": 2,
+    "Notes": "",
+    "MilestoneRuleID": 1,
+    "Definition": {
+      "Title": "Introduction: Cells",
+      "TextTemplate": "[image url=\"https://www.languageperfect.com/media/content/Science/1501459130.230151g/1501459139358-4314669790847519.png\" width=\"700\" height=\"70\"]\n\n**Cells **\n\nEvery@@228B22@** living thing**@@ is made up of @@7C0BAE@**cells!**@@\n\n[image url=\"https://www.languageperfect.com/media/content/German/1469662582.813781g/1469662605545-587583545146450.jpg\" width=\"400\" height=\"267\"]\n\n",
+      "TextFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "ExplanationTemplate": "",
+      "ExplanationFormat": {
+        "Alignment": "center",
+        "FontSize": "medium",
+        "Width": "normal"
+      },
+      "Variables": [],
+      "Components": [],
+      "TimerSeconds": 120,
+      "MarkingCriteria": null,
+      "QuestionReviewState": 0,
+      "TypeCode": "INFO"
+    },
+    "Editable": false
+  }
+]

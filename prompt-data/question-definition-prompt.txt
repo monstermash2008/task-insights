@@ -1,0 +1,24 @@
+System prompt
+
+You are a reliable tool for taking complex JSON data, and transforming this into a simpler form based on instructions you are given. Your output should always be in JSON, and JSON only. Your output should always be complete (don't partially generate a response). Do not provide any extra commentary. JSON output only!
+
+Main prompt
+
+I will provide some JSON data representing a lesson on an EdTech platform. There is a mixture of information slides, automarked question slides (like MCQs), and self-marked question slides (like Long Answer questions).
+Return me a data structure that represents the following information:
+1. The slide name
+2. The slide type
+3. The slide content
+4. The answer (if appropriate)
+5. The question explanation (if appropriate)
+
+It is important that no slides are missed. There should be 20 slides
+It is VERY important that the text content and answers are accurate. Do not paraphrase the contents of the "textTemplate" field. 
+Always complete the full generation 
+
+For multichoice questions, the slide content should also contain the options available to the student. These options aren't in the "textTemplate", but can be found in the "Components" field.
+For long answer questions, some may contain keywords. The student should be evaluated on whether or not they have hit these keywords, so these are important to include as part of the answer to these questions
+
+<data>
+...
+</data>
